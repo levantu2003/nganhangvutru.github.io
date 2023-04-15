@@ -1,0 +1,136 @@
+<html>
+<head>
+    <title>The Traveller Bank</title>
+    <style>
+        #index_LoadingScreen
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #index_LoadingScreen img 
+        {
+            margin-bottom: 30px; 
+            
+            width: 500px; height: 500px
+        }
+        #index_LoadingBar
+        {
+            position: relative;
+
+            height: 20px; width: 98%;
+            border: 5px solid #ffde59;
+            border-radius: 15px;
+        }
+        #index_LoadingProgress
+        {
+            position: absolute;
+
+            width: 0px; height: 20px;
+            border-radius: 15px;
+            background-color: #7ed957;
+
+            animation: index_LoadingProgress_Animation 20s infinite linear;
+        }
+        @keyframes index_LoadingProgress_Animation {100% {width: 100%; background-color: #00bf63}}
+        #index_LoadingButton
+        {
+            display: none;
+            position: relative;
+            left: 7.75%;
+            padding: 20px;
+
+            height: 100px;
+
+            font-family: "Fraunces";
+            font-weight: bolder;
+            font-size: 30px;
+            color: #ffde59;
+            text-shadow: 1px 1px #000000;
+
+            border-style: none;
+            border-radius: 15px;    
+            background-image: linear-gradient(to right, #7ed957, #00bf63);   
+        }
+        img {width: 75px; height: 75px}
+        #index_FarLeftFallingSign
+        {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            animation: index_FarLeftFallingSign_Animation 5s infinite ease alternate;
+        }
+        @keyframes index_FarLeftFallingSign_Animation {0% {opacity: 0} 50% {opacity: 1} 100% {top: 80%; opacity: 0;}}
+        #index_LeftFallingSign
+        {
+            position: absolute;
+            top: 10%;
+            left: 15%;
+            animation: index_LeftFallingSign_Animation 5s infinite ease alternate;
+        }
+        @keyframes index_LeftFallingSign_Animation {0% {opacity: 0} 50% {opacity: 1} 100% {top: 85%; opacity: 0;}}
+        #index_MiddleLeftFallingSign
+        {
+            position: absolute;
+            top: 5%;
+            left: 25%;
+            animation: index_MiddleLeftFallingSign_Animation 5s infinite ease alternate;
+        }
+        @keyframes index_MiddleLeftFallingSign_Animation {0% {opacity: 0} 50% {opacity: 1} 100% {top: 80%; opacity: 0;}}
+        #index_MiddleRightFallingSign
+        {
+            position: absolute;
+            top: 5%;
+            right: 25%;
+            animation: index_MiddleRightFallingSign_Animation 5s infinite ease alternate;
+        }
+        @keyframes index_MiddleRightFallingSign_Animation {0% {opacity: 0} 50% {opacity: 1} 100% {top: 80%; opacity: 0;}}
+        #index_RightFallingSign
+        {
+            position: absolute;
+            top: 10%;
+            right: 15%;
+            animation: index_RightFallingSign_Animation 5s infinite ease alternate;
+        }
+        @keyframes index_RightFallingSign_Animation {0% {opacity: 0} 50% {opacity: 1} 100% {top: 85%; opacity: 0;}}
+        #index_FarRightFallingSign
+        {
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            animation: index_FarRightFallingSign_Animation 5s infinite ease alternate;
+        }
+        @keyframes index_FarRightFallingSign_Animation {0% {opacity: 0} 50% {opacity: 1} 100% {top: 80%; opacity: 0;}}
+    </style>
+    <script>
+        setTimeout(index_ShowButton, 20000);
+
+        function index_ShowButton()
+        {
+            document.getElementById("index_DisappearLoadingBar").innerHTML = null;
+            document.getElementById("index_LoadingButton").style.display = "inline";
+        }
+
+        function index_GoToHome()
+        {
+            location.href = "home.html";
+        }
+    </script>
+</head>
+<body>
+    <div id="index_FarLeftFallingSign"><img src="./Image/Icon/Lira.png"></div>
+    <div id="index_LeftFallingSign"><img src="./Image/Icon/Dollar.png"></div>
+    <div id="index_MiddleLeftFallingSign"><img src="./Image/Icon/Euro.png"></div>
+    <div id="index_MiddleRightFallingSign"><img src="./Image/Icon/Yen.png"></div>
+    <div id="index_RightFallingSign"><img src="./Image/Icon/Won.png"></div>
+    <div id="index_FarRightFallingSign"><img src="./Image/Icon/Rand.png"></div>
+    <div id="index_LoadingScreen">
+        <img src="./Image/Logo/World_Trans.png" alt="TB_World_Logo">
+        <div id="index_DisappearLoadingBar">
+            <div id="index_LoadingBar"><div id="index_LoadingProgress"></div></div>
+        </div>
+        <button id="index_LoadingButton" onclick="index_GoToHome()">Proceed to the Traveller Bank</button>
+    </div>
+</body>
+</html>
