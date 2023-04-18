@@ -14,7 +14,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-current" id="current">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a href="#" class="navbar-brand">Website</a>
@@ -32,9 +32,30 @@
                         <li><a href="#">Services5</a></li>
                     </ul>
                 </li>
-                <li class="active"><a href="#">Business</a></li>
-                <li class="active"><a href="#">Royal</a></li>
-                <li class="active"><a href="#">Navigation</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Royal</a></li>
+                <li><a href="#">Navigation</a></li>
+            </ul>
+            <div class="dropdown">
+                <span class="glyphicon glyphicon-search dropdown-toggle" data-toggle="dropdown"></span>
+                <ul class="dropdown-menu">
+                    <input type="text" class="form-control" id="myInput" type="text" placeholder="Search">
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-fixed" id="change">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Website</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">News</a></li>
             </ul>
         </div>
     </nav>
@@ -70,6 +91,24 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <div class="btn-group btn-group-justified">
+            <div class="btn-group">
+                <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    Personal
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Services1</a></li>
+                    <li><a href="#">Services2</a></li>
+                    <li><a href="#">Services3</a></li>
+                    <li><a href="#">Services4</a></li>
+                    <li><a href="#">Services5</a></li>
+                </ul>
+            </div>
+            <a href="#" class="btn btn-default">Business</a>
+            <a href="#" class="btn btn-default">Royal</a>
+        </div>
+        <hr>
+        <h2 class="text-center text-uppercase">Money</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="thumbnail">
@@ -102,6 +141,37 @@
                 </div>
             </div>
         </div>
+        <hr>
+        <h2 class="text-center text-uppercase">Money 2</h2>
+        <div class="media">
+            <div class="media-left">
+                <img src="./images/News/20230405_MKTBL_CTJCB_600x350.jpg" alt="" class="media-object">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">John Doe</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum magnam vitae, modi nulla molestias quisquam. Eaque fugit adipisci unde necessitatibus nam error itaque ipsam facere. Facilis maiores cumque cupiditate quasi?</p>
+            </div>
+        </div>
+        <div class="media">
+            <div class="media-body">
+                <h4 class="media-heading">John Doe</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum magnam vitae, modi nulla molestias quisquam. Eaque fugit adipisci unde necessitatibus nam error itaque ipsam facere. Facilis maiores cumque cupiditate quasi?</p>
+            </div>
+            <div class="media-right">
+                <img src="./images/News/Hinh 1-Tu van xe tai showroom.jpg" alt="" class="media-object">
+            </div>
+        </div>
+        <div class="media">
+            <div class="media-left">
+                <img src="./images/News/VCBS_Website thumbnail_280 170 (1).jpg" alt="" class="media-object">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">John Doe</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum magnam vitae, modi nulla molestias quisquam. Eaque fugit adipisci unde necessitatibus nam error itaque ipsam facere. Facilis maiores cumque cupiditate quasi?</p>
+            </div>
+        </div>
+        
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
