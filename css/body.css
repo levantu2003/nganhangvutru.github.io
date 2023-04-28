@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+}
+
+.head {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.head .slide-images {
+    width: 500%;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.head .slide-images input {
+    display: none;
+}
+
+.head .slide-images .slide {
+    width: 20%;
+    transition: 0.5s;
+}
+
+.head .slide-images .slide .content {
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    transform: translateY(-50%);
+    margin-left: 30px;
+    background-color: rgba(0, 80, 47, 0.6);
+    padding: 40px;
+    color: #fff;
+}
+
+.navigation-manual {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 20px;
+}
+
+.manual-btn {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: white;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -60%;
+}
+
+#radio5:checked ~ .first {
+    margin-left: -80%;
+}
+
+/* NEWS-HOME */
+
+.slide-container {
+    /* width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center; */
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.image-slider {
+    /* width: 100%;
+    height: 600px;
+    left: 0px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7s; */
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7s;
+}
+
+.slide-container .image-slider .slide-div .img {
+    width: 370px;
+    height: 240px;
+    position: relative;
+    transition: .5s;
+}
+
+.slide-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px 0 30px;
+}
+
+.button {
+    position: absolute;
+    width: 370px;
+    height: 240px;
+    transition: .5s;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+#slider-span1:target ~ .image-slider #img1,
+#slider-span1:target ~ .image-slider #button-1 {
+    width: 380px;
+    height: 250px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-span2:target ~ .image-slider #img2,
+#slider-span2:target ~ .image-slider #button-2 {
+    width: 380px;
+    height: 250px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-span3:target ~ .image-slider #img3,
+#slider-span3:target ~ .image-slider #button-3 {
+    width: 380px;
+    height: 250px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-span1:target ~ .image-slider {left: 70%;}
+#slider-span2:target ~ .image-slider {left: 50%;}
+#slider-span3:target ~ .image-slider {left: 25%;}
+
+/* .news-home {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.news-home .news-content {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.news-home .news-content .news-slides {
+    position: relative;
+}
+
+.news-home .news-content .column-title {
+    width: 30%;
+    position: relative;
+}
+
+.news-home .news-content .column-title h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.news-home .news-content .column-slides {
+    width: 70%;
+}
+
+.news-home .news-content .slides {
+    width: 500%;
+    display: flex;
+}
+
+.news-home .news-content .slides .new-slide {
+    position: relative;
+    width: 20%;
+}
+
+.news-home .news-content .slides .new-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.news-home .news-content .slides .new-slide .content {
+    position: absolute;
+    top: 50%;
+    font-size: 16px;
+    width: 40%;
+    transform: translateY(-50%);
+    color: #fff;
+    margin-left: 30px;
+}
+
+.arrow {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+#arrow-left {
+    border-width: 10px 20px 10px 0px;
+    border-color: transparent #fff transparent transparent;
+    left: 0px;
+    margin-left: 0px;
+    z-index: 9;
+}
+
+#arrow-right {
+    border-width: 10px 0px 10px 20px;
+    border-color: transparent transparent transparent #fff;
+    right: 0px;
+    margin-right: 0px;
+    z-index: 9;
+} */

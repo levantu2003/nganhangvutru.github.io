@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* .navbar-current .container-fluid {
+    display: flex;
+} */
+
+/* .navbar-current .container-fluid .glyphicon {
+    display: block;
+    line-height: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+} */
+
+#myInput {
+    padding: 20px;
+    margin-top: -6px;
+    border: 0;
+    border-radius: 0;
+}
+
+.container .btn-group .btn{
+    background-color: none;
+    border: 0;
+    padding: 24px;
+}
+
+#section1, #section2, #section3, #section4 {
+    padding-top: 50px;
+}
+
+/* @media only screen and (max-width: 540px){
+    .dropdown {
+        display: none;
+    }
+    .container-fluid {
+        display: flex;
+    }
+} */
+
+/* @media screen and (max-width: 410px){
+    .navbar-current .container-fluid .dropdown {
+        display: block;
+    }
+    .navbar-current .container-fluid {
+        justify-content: space-between;
+    }
+} */
+
+.content table, td, th,
+.panel-group .panel-collapse .panel-body ._2 table, td, th {
+    border: 1px solid black;
+}
+
+.content table td,
+.panel-group .panel-collapse .panel-body ._2 table td {
+    padding: 5px;
+    align-items: center;
+}
+
+.content .center,
+.panel-group .panel-collapse .panel-body ._2 table .center {
+    text-align: center;
+}
+
+.content table th,
+.panel-group .panel-collapse .panel-body ._2 table th {
+    text-align: center;
+    padding: 10px;
+}
+
+.content table th {
+    background-color: burlywood;
+}
+
+.panel-group .panel-collapse .panel-body ._2 table td ul {
+    margin-left: 15px;
+    line-height: 30px;
+}
+
+.panel-group .panel-collapse .panel-body ._2 .dieukien2 {
+    margin: auto;
+}
+
+.danang{
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 100%;
+}
+
+.danang img{
+    width: 100%;
+    height: auto;
+}
+
+.danang ul {
+    margin-left: 15px;
+}

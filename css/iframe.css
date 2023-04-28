@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+.media-heading {
+    padding-top: 10px;
+}
+
+.media-left {
+    width: 50%;
+}
