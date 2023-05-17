@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.col-sm-9 {
+    height: 725px !important;
+}
+
 /* .navbar-current .container-fluid {
     display: flex;
 } */
@@ -14,6 +18,16 @@
     color: white;
     cursor: pointer;
     font-size: 16px;
+} */
+
+.footer .row {
+    display: flex;
+    /* width: 100%; */
+    margin-left: 15px;
+}
+
+/* .footer .row .col-sm-3{
+    width: 100%;
 } */
 
 #myInput {
@@ -101,4 +115,28 @@
 
 .danang ul {
     margin-left: 15px;
+}
+
+/* KHACH HANG CA NHAN */
+.row .row-sm-3 .table {
+    margin-top: 10px;
+}
+
+/* Email */
+.box-content {
+    width: 50%;
+    margin: auto;
+}
+
+.box-content label {
+    width: 33.33333%;
+}
+
+.box-content input {
+    width: 65.55555%;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    margin-bottom: 2px;
 }
