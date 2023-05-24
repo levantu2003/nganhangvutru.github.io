@@ -12,6 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/93c0950cc1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" id="current">
@@ -20,23 +21,35 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" title="humberger">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                        
+                    <span class="icon-bar"></span>
                 </button>
                 <a href="#" class="navbar-brand">Website</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">Personal</a>
+                        <a href="/index.html">Trang chủ</a>
                     </li>
                     <li>
-                        <a href="#">Business</a>
+                        <a href="#">Giới thiệu</a>
                     </li>
                     <li>
-                        <a href="#">Royal</a>
+                        <a href="./html/EmailLienHe.html">Liên hệ</a>
                     </li>
                     <li>
-                        <a href="#">Navigation</a>
+                        <a href="#">Điểm đến</a>
+                    </li>
+                    <li>
+                        <a href="#">Dịch vụ</a>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Thành viên<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./html/KhachHangCaNhan/KhachHangCaNhan.html">Khách hàng cá nhân</a></li>
+                            <li><a href="./html/KhachHangUuTien/KhachHangUuTien.html">Khách hàng ưu tiên</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./html/KhachHangUuTien/TinTucSuKien.html">Tin tức</a>
                     </li>
                 </ul>
             </div>
@@ -85,11 +98,11 @@
 
         <div class="btn-group btn-group-justified">
             <a href="./html/KhachHangCaNhan/KhachHangCaNhan.html" class="btn btn-default">Khách hàng cá nhân</a>
-            <a href="./html/KhachHangToChuc/KhachHangToChuc.html" class="btn btn-default">Khách hàng tổ chức</a>
+            <!-- <a href="./html/KhachHangToChuc/KhachHangToChuc.html" class="btn btn-default">Khách hàng tổ chức</a> -->
             <a href="./html/KhachHangUuTien/KhachHangUuTien.html" class="btn btn-default">Khách hàng ưu tiên</a>
         </div>
         <hr>
-        <h2 class="text-center text-uppercase"  id="section2">About us</h2>
+        <h2 class="text-center text-uppercase"  id="section2">Membership</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="thumbnail">
@@ -135,7 +148,7 @@
         </div>
         <div class="media">
             <div class="media-body">
-                <h4 class="media-heading">John Doe</h4>
+                <h4 class="media-heading text-right">John Doe</h4>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum magnam vitae, modi nulla molestias quisquam. Eaque fugit adipisci unde necessitatibus nam error itaque ipsam facere. Facilis maiores cumque cupiditate quasi?</p>
             </div>
             <div class="media-right">
@@ -144,7 +157,7 @@
         </div>
         <div class="media">
             <div class="media-left">
-                <img src="/images/News/VCBS_Website thumbnail_280 170 (1).jpg" alt="" class="media-object">
+                <img src="/images/News/VCBS_Website thumbnail_280 170.jpg" alt="" class="media-object">
             </div>
             <div class="media-body">
                 <h4 class="media-heading">John Doe</h4>
@@ -232,51 +245,48 @@
             <!-- Left and right controls -->
             
         </div>
-        <div class="footer">
-            <div class="row">
-                <div class="rol-sm-3">
-                    <div class="media">
-                        <div class="media-body">
-                            <b class="media-heading">LIÊN HỆ</b><br>
-                            <a>1900 54 54 13</a><br>
-                            <a href="./html/KhachHangCaNhan/CoCheToGiac.html">Cơ chế tố giác</a><br>
-                            <a href="./html/KhachHangCaNhan/Email.html">Email liên hệ</a><br>
-                            <a href="#">SĐT hỗ trợ khách hàng</a>
-                        </div>
+    </div>
+    <div class="footer container-fluid">
+        <div class="row">
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading text-center">LIÊN HỆ</h3>
+                        <a>1900 54 54 13</a><br>
+                        <a href="./html/KhachHangCaNhan/CoCheToGiac.html">Cơ chế tố giác</a><br>
+                        <a href="./html/KhachHangCaNhan/Email.html">Email liên hệ</a><br>
                     </div>
                 </div>
-                <div class="rol-sm-3">
-                    <div class="media">
-                        <div class="media-body">
-                            <b class="media-heading">TÌM VIETCOMBANK</b><br>
-                            <a href="./html/MangLuoi.html">Điểm đặt ATM</a><br>
-                            <a href="./html/MangLuoi.html">Điểm giao dịch</a><br>
-                            <!-- <a href="#">Điểm mua bán ngoại tệ tiền mặt</a><br> -->
-                            
-                        </div>
+            </div>
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading text-center">MEMBERSHIP</h3>
+                        <a href="./html/KhachHangCaNhan/KhachHangCaNhan.html">Khách hàng cá nhân</a><br>
+                        <a href="./html/KhachHangUuTien/KhachHangUuTien.html">Khách hàng ưu tiên</a><br>                        
                     </div>
                 </div>
-                <div class="rol-sm-3">
-                    
-                    <div class="media">
-                        <div class="media-body">
-                            <b class="media-heading">THÔNG TIN</b><br>
-                            <a href="./html/KhachHangCaNhan/KhachHangCaNhan.html">Tỷ giá</a><br>
-                            <a href="./html/KhachHangCaNhan/CongCuTienIch/BieuPhi/BieuPhi.html">Biểu phí</a><br>
-                            <a href="./html/KhachHangCaNhan/CongCuTienIch/LaiSuat.html">Lãi suất</a><br>
-                            <a href="./html/KhachHangCaNhan/CongCuTienIch/BieuMau/BieuMau.html">Biểu mẫu</a><br>
-                        </div>
+            </div>
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading text-center">CÔNG CỤ & TIỆN ÍCH</h3>
+                        <a href="./html/CongCuTienIch/TyGia.html">Tỷ giá</a><br>
+                        <a href="./html/CongCuTienIch/LaiSuat.html">Lãi suất</a><br>
+                        <a href="./html/CongCuTienIch/BieuPhi/BieuPhi.html">Biểu phí</a><br>
+                        <a href="./html/CongCuTienIch/BieuMau/BieuMau.html">Biểu mẫu</a><br>
+                        <a href="./html/MangLuoi.html">Mạng lưới</a><br>
+                        <a href="./html/CongCuTienIch/TraCuuSoTietKiem.html">Tra cứu sổ tiết kiệm</a><br>
                     </div>
                 </div>
-                <div class="rol-sm-3">
-                    
-                    <div class="media">
-                        <div class="media-body">
-                            <b class="media-heading">CÔNG CỤ TÍNH TOÁN</b><br>
-                            <a href="#">Chuyển đổi ngoại tệ</a><br>
-                            <a href="#">Tính lịch trả nợ</a><br>
-                            <a href="#">Tính lãi tiết kiệm</a><br>
-                        </div>
+            </div>
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading"></h3>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a><br>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></i></a><br>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
             </div>

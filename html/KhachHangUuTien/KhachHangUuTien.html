@@ -7,37 +7,51 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/khachhangcanhan.css">
+    <script src="/js/UuTien.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/93c0950cc1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" id="current">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" title="humberger">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                        
+                    <span class="icon-bar"></span>
                 </button>
                 <a href="#" class="navbar-brand">Website</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="/index.html">Home</a>
+                        <a href="/index.html">Trang chủ</a>
                     </li>
                     <li>
-                        <a href="#">Business</a>
+                        <a href="#">Giới thiệu</a>
                     </li>
                     <li>
-                        <a href="#">Royal</a>
+                        <a href="#">Liên hệ</a>
                     </li>
                     <li>
-                        <a href="#">Navigation</a>
+                        <a href="#">Điểm đến</a>
+                    </li>
+                    <li>
+                        <a href="#">Dịch vụ</a>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Thành viên<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../KhachHangCaNhan/KhachHangCaNhan.html">Khách hàng cá nhân</a></li>
+                            <li><a href="#">Khách hàng ưu tiên</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Tin tức</a>
                     </li>
                 </ul>
             </div>
@@ -86,34 +100,63 @@
 
         <div class="btn-group btn-group-justified">
             <a href="../KhachHangCaNhan/khachhangcanhan.html" class="btn btn-default">Khách hàng cá nhân</a>
-            <a href="../KhachHangToChuc/KhachHangToChuc.html" class="btn btn-default">Khách hàng tổ chức</a>
             <a href="#" class="btn btn-default">Khách hàng ưu tiên</a>
         </div>
 
-        <div class="row">
-            <nav class="col-sm-3">
-                <ul class="nav nav-pills nav-stacked">
-                    <li class="active">
-                        <a target="iframe-a" href="./TinTucSuKien.html">Tin tuc va su kien</a>
-                    </li>
-                    <li>
-                        <a target="iframe-a" href="./QuyenLoiDieuKienThamGia.html">Quyen loi va dieu kien tham gia</a>
-                    </li>
-                    <li>
-                        <a target="iframe-a" href="./SanPhamDichVu.html">San pham dich vu</a>
-                    </li>
-                    <li>
-                        <a target="iframe-a" href="./DiemGiaoDichUuTien.html">Diem giao dich Uu tien</a>
-                    </li>
-                    <li>
-                        <a target="iframe-a" href="./PhongChoSanBay.html">Phong cho san bay</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="col-sm-9">
-                <iframe name="iframe-a" src="" frameborder="0"></iframe>
+        <h1 class="text-center">Khách hàng ưu tiên</h1>
+
+        <div id="container">
+            <div id="content" class="row">
+                
             </div>
         </div>
     </div>
+    <div class="footer container-fluid">
+        <div class="row">
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading text-center">LIÊN HỆ</h3>
+                        <a>1900 54 54 13</a><br>
+                        <a href="../CoCheToGiac.html">Cơ chế tố giác</a><br>
+                        <a href="../EmailLienHe.html">Email liên hệ</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading text-center">MEMBERSHIP</h3>
+                        <a href="../KhachHangCaNhan/KhachHangCaNhan.html">Khách hàng cá nhân</a><br>
+                        <a href="../KhachHangUuTien/KhachHangUuTien.html">Khách hàng ưu tiên</a><br>                        
+                    </div>
+                </div>
+            </div>
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading text-center">CÔNG CỤ & TIỆN ÍCH</h3>
+                        <a href="../CongCuTienIch/TyGia.html">Tỷ giá</a><br>
+                        <a href="../CongCuTienIch/LaiSuat.html">Lãi suất</a><br>
+                        <a href="../CongCuTienIch/BieuPhi/BieuPhi.html">Biểu phí</a><br>
+                        <a href="../CongCuTienIch/BieuMau/BieuMau.html">Biểu mẫu</a><br>
+                        <a href="../MangLuoi.html">Mạng lưới</a><br>
+                        <a href="../CongCuTienIch/TraCuuSoTietKiem.html">Tra cứu sổ tiết kiệm</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading"></h3>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a><br>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></i></a><br>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/fun_UuTien.js"></script>
 </body>
 </html>

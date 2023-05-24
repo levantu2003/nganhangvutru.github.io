@@ -1,11 +1,17 @@
 * {
     margin: 0px;
     padding: 0px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #27374D !important;
 }
 
 img {
-    width: 100%;
-    height: auto;
+    width: 280px;
+    height: 170px;
 }
 
 h4 {
