@@ -216,3 +216,12 @@ body {
     width: 100px;
     height: 50px;
 }
+
+/* .container-fluid .coche {
+    color: #fff;
+} */
+
+.panel-group .panel .panel-collapse .panel-body .content .col-sm-4 select {
+    width: 100%;
+    padding: 10px;
+}

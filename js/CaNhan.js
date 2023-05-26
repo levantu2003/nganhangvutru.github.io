@@ -4,11 +4,11 @@ var CaNhan = [
      "avatar": "https://portal.vietcombank.com.vn/content/personal/PublishingImages/Lists/Card/AllItems/hopQuatang.png?RenditionID=3",
      "id": "1"
     },
-    {
-     "name": "Đăng ký dịch vụ",
-     "avatar": "https://portal.vietcombank.com.vn/PublishingImages/no-image-news.jpg?RenditionID=3",
-     "id": "2"
-    },
+    // {
+    //  "name": "Đăng ký dịch vụ",
+    //  "avatar": "https://portal.vietcombank.com.vn/PublishingImages/no-image-news.jpg?RenditionID=3",
+    //  "id": "2"
+    // },
     {
      "name": "Tài khoản",
      "avatar": "https://portal.vietcombank.com.vn/content/personal/KhoAnh/Ngan%20hang%20dien%20tu/EBANK%202020/Goi%20tai%20khoan/(600x350)%20Tai%20khoan%20thanh%20toan(menu%20tong).png?RenditionID=3g",

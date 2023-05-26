@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/khachhangcanhan.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -15,21 +15,35 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="content _1">
-        <h3>TRA CỨU THÔNG TIN TÀI KHOẢN TIẾT KIỆM</h3>
-        <label for="tk"><b>Số tài khoản tiết kiệm</b></label><br>
-        <input type="text" name="tk" placeholder="Nhập số tài khoản" required>
-        <br>
-        <label for="the"><b>Số thẻ tiết kiệm</b></label><br>
-        <input type="text" name="the" placeholder="Nhập số thẻ" required>
-        <br>
-        <label for="socmt"><b>Số CMT/CCCD/HC</b></label><br>
-        <input type="text" name="socmt" placeholder="Nhập số CMT/CCCD/HC" required>
-        <br>
-        <label for="makt"><b>Mã kiểm tra</b></label><br>
-        <input type="text" name="makt" placeholder="Nhập mã kiểm tra" required>
-        <br>
-        <input type="submit" placeholder="Tìm kiếm">
+    <div class="container">
+        <div class="jumbotron">
+            <h2>TRA CỨU THÔNG TIN TÀI KHOẢN TIẾT KIỆM</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="tk">Họ và tên*</label>
+                    <input name="tk" type="text" class="form-control" placeholder="Nhập số tài khoản" required>
+                </div>
+                <div class="form-group">
+                    <label for="the">Số CMND / Hộ chiếu*</label>
+                    <input name="the" type="text" class="form-control" placeholder="Nhập số thẻ" required>
+                </div>
+                <div class="form-group">
+                    <label for="socmt">Địa chỉ email*</label>
+                    <input name="socmt" type="text" class="form-control" placeholder="Nhập số CMT/CCCD/HC" required>
+                </div>
+                <div class="form-group">
+                    <label for="makt">Số điện thoại*</label>
+                    <input name="makt" type="text" class="form-control" placeholder="Nhập mã kiểm tra" required>
+                </div>
+            </form>
+            <form action="#"></form>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input type="submit" placeholder="Tìm kiếm">
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
