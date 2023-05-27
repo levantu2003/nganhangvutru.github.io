@@ -20,14 +20,14 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" id="current">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"
+                <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"
                     title="humberger">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
+                </button> -->
                 <a href="#" class="navbar-brand">Website</a>
-            </div>
+            </div><!-- Navbar-header: dùng để chứa tên website -->
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li>
@@ -56,7 +56,7 @@
                         <a href="./html/KhachHangUuTien/TinTucSuKien.html">Tin tức</a>
                     </li>
                 </ul>
-            </div>
+            </div><!-- Navbar-collapse: dùng để chứa các chức năng của website -->
         </div>
     </nav>
     <div class="container" id="section1">
@@ -68,7 +68,7 @@
                 <li data-target="#myCarousel" data-slide-to="2"></li>
                 <li data-target="#myCarousel" data-slide-to="3"></li>
                 <li data-target="#myCarousel" data-slide-to="4"></li>
-            </ol>
+            </ol> <!-- Carousel-indicators: dùng để tạo 5 nút chuyển hình ảnh ở banner -->
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
@@ -88,7 +88,7 @@
                 <div class="item">
                     <img src="./images/Slides_Home/Web-banner_1200x300.jpg" alt="" style="width: 100%;">
                 </div>
-            </div>
+            </div> <!-- Carousel-inner: dùng để chứa các hình ảnh trong banner -->
 
             <!-- Left and right controls -->
             <a href="#myCarousel" class="left carousel-control" data-slide="prev">
@@ -99,6 +99,7 @@
                 <span class="glyphicon glyphicon-chevron-right"></span>
                 <span class="sr-only">Next</span>
             </a>
+            <!-- Left (Right) carousel-control dùng để tạo hai mũi tên hai bên để chuyển slide  -->
         </div>
 
         <div class="btn-group btn-group-justified">
@@ -106,10 +107,11 @@
             <!-- <a href="./html/KhachHangToChuc/KhachHangToChuc.html" class="btn btn-default">Khách hàng tổ chức</a> -->
             <a href="./html/KhachHangUuTien/KhachHangUuTien.html" class="btn btn-default">Khách hàng ưu tiên</a>
         </div>
+        <!-- Btn-group: tạo hai nút dẫn đến hai chức năng là Khách hàng cá nhân và khách hàng ưu tiên -->
         <hr>
         <h2 class="text-center text-uppercase" id="section2">Membership</h2>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="thumbnail">
                     <a href="#">
                         <img src="./images/AboutUs/Banner web_600x350.jpg" alt="" style="width:100%">
@@ -119,7 +121,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4">
+            <!-- <div class="col-md-4">
                 <div class="thumbnail">
                     <a href="#">
                         <img src="./images/AboutUs/banner website 600_250.jpg" alt="" style="width:100%">
@@ -129,8 +131,8 @@
                         </div>
                     </a>
                 </div>
-            </div>
-            <div class="col-md-4">
+            </div> -->
+            <div class="col-md-6">
                 <div class="thumbnail">
                     <a href="#">
                         <img src="./images/AboutUs/VCB-FWD-CTKMT4-final-Mass-Avarta.jpg" alt="" style="width:100%">
@@ -141,9 +143,9 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div><!-- Row: dùng để tạo hai cột chứa mô tả của hai chức năng Khách hàng cá nhân và Khách hàng tổ chức -->
         <hr>
-        <h2 class="text-center text-uppercase" id="section3">Contacts</h2>
+        <h2 class="text-center text-uppercase" id="section3">Giới thiệu</h2>
         <div class="media">
             <div class="media-left">
                 <img src="/images/News/20230405_MKTBL_CTJCB_600x350.jpg" alt="" class="media-object">
@@ -152,7 +154,7 @@
                 <h4 class="media-heading">Mở cửa tài chính</h4>
                 <p>"Sự tiện lợi đồng hành cùng bạn trong mọi giao dịch!</p>
             </div>
-        </div>
+        </div><!-- Media: dùng để chứa hình ảnh và nội dung của phần Contacts -->
         <div class="media">
             <div class="media-body">
                 <h4 class="media-heading text-right">Khám phá sự tự do di chuyển</h4>
@@ -172,7 +174,7 @@
             </div>
         </div>
         <hr>
-        <h2 class="text-center text-uppercase" id="section4">News</h2>
+        <h2 class="text-center text-uppercase" id="section4">Tin tức</h2>
         <div id="Carousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
 

@@ -50,11 +50,6 @@ var CaNhan = [
      "id": "10"
     },
     {
-     "name": "VCB REWARDS",
-     "avatar": "https://portal.vietcombank.com.vn/content/personal/KhoAnh/Anh%20banner/VCB%20Rewards%20-%20Banner%20web_600x350.jpg?RenditionID=3",
-     "id": "11"
-    },
-    {
      "name": "VCB FAMILY",
      "avatar": "https://portal.vietcombank.com.vn/content/personal/KhoAnh/VCB%20Family/Avatar%20600x350.jpg?RenditionID=3",
      "id": "12"
