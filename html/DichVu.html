@@ -1,13 +1,57 @@
 <html>
 <head>
-    <title>Odyssey Bank - Service</title>
+    <title>Odyssey Bank - Dịch vụ</title>
     <link rel="icon" href="/images/icon/icon.png">
+    <link rel="stylesheet" href="/css/long.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/service.css">
     <script src="../js/service.js"></script>
+    <script src="../js/destination.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/93c0950cc1.js" crossorigin="anonymous"></script>  
 </head>
 <body>
 <div id="content">
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="current">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Odyssey Bank</a>
+            </div><!-- Navbar-header: dùng để chứa tên website -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="./GioiThieu.html">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="./EmailLienHe.html">Liên hệ</a>
+                    </li>
+                    <li>
+                        <a href="./DiemDen.html">Điểm đến</a>
+                    </li>
+                    <li>
+                        <a href="#">Dịch vụ</a>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Thành viên<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./html/KhachHangCaNhan/KhachHangCaNhan.html">Khách hàng cá nhân</a></li>
+                            <li><a href="./html/KhachHangUuTien/KhachHangUuTien.html">Khách hàng ưu tiên</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./KhachHangUuTien/TinTucSuKien.html">Tin tức</a>
+                    </li>
+                </ul>
+            </div><!-- Navbar-collapse: dùng để chứa các chức năng của website -->
+        </div>
+    </nav>
     <div class="title">
         <div class="title_background"><img src="/images/DichVu/support.png" alt="support"></div>
         <div class="title_title">Dịch Vụ</div>
@@ -18,7 +62,8 @@
         <div class="article_picture"><img src="/images/DichVu/service.png" alt="service"></div>
         <div class="article_title">Dịch Vụ</div>
         <div class="article_text">Với sứ mệnh làm cho tương lai tài chính của bạn thịnh vượng, ngân hàng của chúng tôi tự hào là một người bạn đáng tin cậy trên hành trình của bạn. Hãy đến với chúng tôi và trải nghiệm những dịch vụ và tiện ích vượt trội mà chúng tôi mang đến.</div>
-        <div class="article_box" onclick="document.getElementById('find_one').scrollIntoView()">Tìm Hiểu Thêm</div>
+        <!-- <div class="article_box" onclick="document.getElementById('find_one').scrollIntoView()">Tìm Hiểu Thêm</div> -->
+        <button class="article_box" onclick="document.getElementById('find_one').scrollIntoView()">Tìm Hiểu Thêm</button>
     </div>
     <div class="break"></div>
     <div class="find" id="find_one"></div>
@@ -491,9 +536,55 @@
         <div class="essay_picture"><img src="/images/DichVu/support.png" alt="support"></div>
         <div class="essay_title">Hỗ Trợ</div>
         <div class="essay_text">Ngân hàng của chúng tôi cam kết đặt sự hỗ trợ và quan tâm tới khách hàng lên hàng đầu. Chúng tôi hiểu rằng mỗi khách hàng đều có những nhu cầu và mục tiêu tài chính riêng, và chính vì vậy chúng tôi tạo ra những giải pháp linh hoạt và phù hợp nhằm đáp ứng mọi yêu cầu.</div>
-        <div class="essay_box">Liên Hệ Ngay</div>
+        <!-- <div class="essay_box">Liên Hệ Ngay</div> -->
+        <button class="essay_box">Liên Hệ Ngay</button>
     </div>
     <div class="break"></div>
-</div>  
+</div>
+<div class="footer container-fluid">
+    <div class="row">
+        <div class="rol-sm-3">
+            <div class="media">
+                <div class="media-body">
+                    <h3 class="media-heading text-center">LIÊN HỆ</h3>
+                    <a>1900 54 54 13</a><br>
+                    <a href="./html/CoCheToGiac.html">Cơ chế tố giác</a><br>
+                    <a href="./html/KhachHangCaNhan/Email.html">Email liên hệ</a><br>
+                </div>
+            </div>
+        </div>
+        <div class="rol-sm-3">
+            <div class="media">
+                <div class="media-body">
+                    <h3 class="media-heading text-center">MEMBERSHIP</h3>
+                    <a href="./html/KhachHangCaNhan/KhachHangCaNhan.html">Khách hàng cá nhân</a><br>
+                    <a href="./html/KhachHangUuTien/KhachHangUuTien.html">Khách hàng ưu tiên</a><br>
+                </div>
+            </div>
+        </div>
+        <div class="rol-sm-3">
+            <div class="media">
+                <div class="media-body">
+                    <h3 class="media-heading text-center">CÔNG CỤ & TIỆN ÍCH</h3>
+                    <a href="./html/CongCuTienIch/TyGia.html">Tỷ giá</a><br>
+                    <a href="./html/CongCuTienIch/LaiSuat.html">Lãi suất</a><br>
+                    <a href="./html/CongCuTienIch/BieuPhi/BieuPhi.html">Biểu phí</a><br>
+                    <a href="./html/CongCuTienIch/BieuMau/BieuMau.html">Biểu mẫu</a><br>
+                    <a href="./html/CongCuTienIch/TraCuuSoTietKiem.html">Tra cứu sổ tiết kiệm</a><br>
+                </div>
+            </div>
+        </div>
+        <div class="rol-sm-3">
+            <div class="media">
+                <div class="media-body">
+                    <h3 class="media-heading"></h3>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a><br>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></i></a><br>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

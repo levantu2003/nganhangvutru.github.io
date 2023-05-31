@@ -5,367 +5,17 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* ========================================= COMMON ========================================= */
-#color_picker
-{
-    content: "Palet #1"; /* This is the logo pallet */
-    color: #79E0EE;
-    color: #98EECC;
-    color: #D0F5BE;
-    color: #FBFFDC;
-
-    content: "Palet #2";
-    color: #EDF1D6;
-    color: #9DC08B;
-    color: #609966;
-    color: #40513B;
-
-    content: "Palet #3";
-    color: #F0FF42;
-    color: #82CD47;
-    color: #54B435; /* This is the color of most icon */
-    color: #379237;
-
-    content: "Palent #4";
-    color: #0A4D68;
-    color: #088395;
-    color: #05BFDB;
-    color: #00FFCA;
-
-    content: "Palent #5";
-    color: #03001C;
-    color: #301E67;
-    color: #5B8FB9;
-    color: #B6EADA;
-
-    content: "Palent #6";
-    color: #FFF7D4;
-    color: #FFD95A;
-    color: #C07F00;
-    color: #4C3D3D;
-}
-@font-face 
-{
-    font-family: "Great Vibes";
-    src: url(/font/great_vibes.ttf);
-}
-@font-face 
-{
-    font-family: "Prata";
-    src: url(/font/prata.ttf);
-}
-html
-{
-    scroll-behavior: smooth;
-}
-div
-{
-    overflow: hidden;
-    box-sizing: border-box;
-}
-img
-{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-a
-{
-    text-decoration: none;
-    color: #FFFFFF;
-}
-button, input, select
-{
-    width: 100%;
-    height: 100%;
-    
-    border: none;
-    box-sizing: border-box;
-    background-color: transparent;
-}
-button:hover
-{
-    cursor: pointer;
-}
-#content
-{
-    position: relative;
-}
-.break
-{
-    position: relative;
-    width: 100%;
-    height: 5%;
-}
-.find
-{
-    position: relative;
-    width: 0%;
-    height: 0%;
-}
-.tab
-{
-    display: none;
-}
-
-/* ========================================= TITILE ========================================= */
-.title
-{
-    position: relative;
-    width: 100%;
-    height: 30%;
-}
-.title_background
-{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-
-    filter: brightness(0.4);
-}
-.title_title
-{
-    display: flex;
-    position: absolute;
-    width: 40%;
-    height: 80%;
-    left: 30%;
-    justify-content: center;
-    align-items: center;
-
-    font-family: "Great Vibes";
-    font-size: 150px;
-    font-weight: bold;
-    color: #F0FF42;
-}
-.title_subtitle
-{
-    display: flex;
-    position: absolute;
-    width: 40%;
-    height: 15%;
-    top: 65%;
-    left: 30%;
-    justify-content: center;
-    align-items: center;
-
-    font-family: "Prata";
-    font-size: 25px;
-    color: #54B435;
-}
-
-/* ========================================= ARTICLE ======================================== */
-.article
-{
-    position: relative;
-    width: 100%;
-    height: 50%;
-}
-.article_picture
-{
-    position: absolute;
-    width: 40%;
-    height: 90%;
-    top: 5%;
-    left: 7.5%;
-
-    border-radius: 20px;
-}
-.article_title
-{
-    display: flex;
-    position: absolute;
-    width: 40%;
-    height: 15%;
-    top: 10%;
-    right: 7.5%;
-    justify-content: center;
-    align-items: center;
-
-    font-family: "Great Vibes";
-    font-size: 50px;
-    font-weight: bold;
-    color: #0A4D68;
-}
-.article_text
-{
-    position: absolute;
-    width: 40%;
-    height: 30%;
-    top: 25%;
-    right: 7.5%;
-
-    font-family: "Prata";
-    font-size: 20px;
-    font-style: italic;
-    text-align: justify;
-}
-.article_box
-{
-    display: flex;
-    position: absolute;
-    width: 20%;
-    height: 15%;
-    top: 60%;
-    right: 17.5%;
-    justify-content: center;
-    align-items: center;
-
-    font-family: "Prata";
-    font-size: 30px;
-    border: 5px solid #DDDDDD;
-    color: #FFFFFF;
-    background-color: #0A4D68;
-}
-.article_box:hover
-{
-    cursor: pointer;
-}
-
-/* ========================================= ESSAY ========================================== */
-.essay
-{
-    position: relative;
-    width: 100%;
-    height: 50%;
-}
-.essay_title
-{
-    display: flex;
-    position: absolute;
-    width: 40%;
-    height: 15%;
-    top: 10%;
-    left: 7.5%;
-    justify-content: center;
-    align-items: center;
-
-    font-family: "Great Vibes";
-    font-size: 50px;
-    font-weight: bold;
-    color: #0A4D68;
-}
-.essay_text
-{
-    position: absolute;
-    width: 40%;
-    height: 30%;
-    top: 25%;
-    left: 7.5%;
-
-    font-family: "Prata";
-    font-size: 20px;
-    font-style: italic;
-    text-align: justify;
-    overflow: visible;
-}
-.essay_box
-{
-    display: flex;
-    position: absolute;
-    width: 20%;
-    height: 15%;
-    top: 60%;
-    left: 17.5%;
-    justify-content: center;
-    align-items: center;
-
-    font-family: "Prata";
-    font-size: 30px;
-    border: 5px solid #DDDDDD;
-    color: #FFFFFF;
-    background-color: #0A4D68;
-}
-.essay_box:hover
-{
-    cursor: pointer;
-}
-.essay_picture
-{
-    position: absolute;
-    width: 40%;
-    height: 90%;
-    top: 5%;
-    right: 7.5%;
-
-    border-radius: 20px;
-}
-
-/* ========================================= DISPLAY ======================================== */
-.display
-{
-    position: relative;
-    width: 100%;
-    height: 60%;
-}
-.display_one
-{
-    position: absolute;
-    width: 30%;
-    height: 100%;
-    left: 2.5%;
-}
-.display_two
-{
-    position: absolute;
-    width: 30%;
-    height: 100%;
-    left: 35%;
-}
-.display_three
-{
-    position: absolute;
-    width: 30%;
-    height: 100%;
-    right: 2.5%;
-}
-
-/* ========================================= POSTER ========================================= */
-.poster
-{
-    position: relative;
-    width: 100%;
-    height: 50%;
-}
-.poster_image
-{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-.poster_title
-{
-    display: flex;
-    position: absolute;
-    width: 40%;
-    height: 20%;
-    top: 2.5%;
-    left: 0.75%;
-    justify-content: center;
-    align-items: center;
-
-    font-family: "Prata";
-    font-size: 50px;
-    font-weight: bold;
-    color: #54B435;
-    background-color: transparent;
-}
-.poster_blur
-{
-    position: absolute;
-    width: 40%;
-    height: 20%;
-    top: 2.5%;
-    left: 0.75%;
-
-    background-color: #FFFFFF;
-    filter:blur(20px);
-}
-
-
-
 body {
     background-color: #526D82 !important;
+} 
+
+.media .media-left img {
+    width: 270px;
+    height: auto;
+} 
+
+.navbar-brand {
+    text-transform: uppercase;
 }
 
 .col-sm-9 {
@@ -442,23 +92,6 @@ body {
 .panel-group .panel-collapse .panel-body ._2 .dieukien2 {
     margin: auto;
 }
-
-/* .danang{
-    margin: auto;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    width: 100%;
-} */
-
-/* .danang img{
-    width: 100%;
-    height: auto;
-} */
-
-/* .danang ul {
-    margin-left: 15px;
-} */
 
 .row .row-sm-3 .table {
     margin-top: 10px;
@@ -606,4 +239,22 @@ a, p {
 
 .slide .carousel-inner .item .row .col-sm-4 .thumbnail {
     height: 350px;
+}
+
+.tracuu,
+.tintuc {
+    margin-top: 50px;
+}
+
+.content .table-bordered tbody{
+    color: #fff;
+}
+
+.content p b, ul li,
+.content .table-hover tbody {
+    color: #fff;
+}
+
+.content .table-hover tbody .success {
+    color: #000;
 }

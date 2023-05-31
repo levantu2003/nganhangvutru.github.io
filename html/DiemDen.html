@@ -1,13 +1,56 @@
 <html>
 <head>
-    <title>Odyssey Bank - Destination</title>
+    <title>Odyssey Bank - Điểm đến</title>
     <link rel="icon" href="/images/icon/icon.png">
+    <link rel="stylesheet" href="/css/long.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/destination.css">
     <script src="../js/destination.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/93c0950cc1.js" crossorigin="anonymous"></script>  
 </head>
 <body>
 <div id="content">
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="current">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Odyssey Bank</a>
+            </div><!-- Navbar-header: dùng để chứa tên website -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="./GioiThieu.html">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="./EmailLienHe.html">Liên hệ</a>
+                    </li>
+                    <li>
+                        <a href="#">Điểm đến</a>
+                    </li>
+                    <li>
+                        <a href="./DichVu.html">Dịch vụ</a>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Thành viên<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./html/KhachHangCaNhan/KhachHangCaNhan.html">Khách hàng cá nhân</a></li>
+                            <li><a href="./html/KhachHangUuTien/KhachHangUuTien.html">Khách hàng ưu tiên</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./KhachHangUuTien/TinTucSuKien.html">Tin tức</a>
+                    </li>
+                </ul>
+            </div><!-- Navbar-collapse: dùng để chứa các chức năng của website -->
+        </div>
+    </nav>
     <div class="title">
         <div class="title_background"><img src="/images/DichVu/travel.png" alt="travel"></div>
         <div class="title_title">Du Hành</div>
@@ -15,10 +58,11 @@
     </div>
     <div class="break"></div>
     <div class="article">
-        <div class="article_picture"><img src="/images/DichVu/DiemDen.png" alt="destination"></div>
+        <div class="article_picture"><img src="/images/DichVu/destination.png" alt="destination"></div>
         <div class="article_title">Du Hành</div>
         <div class="article_text">Du hành đến là những địa điểm hấp dẫn và đáng khám phá trên khắp thế giới. Mỗi điểm đến mang đến một trải nghiệm du lịch độc đáo và đa dạng, từ những thành phố sôi động đến những cảnh quan thiên nhiên tuyệt đẹp.</div>
-        <div class="article_box" onclick="document.getElementById('find_one').scrollIntoView()">Tìm Hiểu Thêm</div>
+        <!-- <div class="article_box" onclick="document.getElementById('find_one').scrollIntoView()">Tìm Hiểu Thêm</div> -->
+        <button class="article_box" onclick="document.getElementById('find_one').scrollIntoView()">Tìm Hiểu Thêm</button>
     </div>
     <div class="break"></div>
     <div class="find" id="find_one"></div>
@@ -325,7 +369,8 @@
         <div class="essay_picture"><img src="/images/DichVu/restaurant.png" alt="restaurant"></div>
         <div class="essay_title">Nhà Hàng</div>
         <div class="essay_text">Với tầm nhìn và mục tiêu chung, chúng tôi mong muốn hợp tác với các nhà hàng đồng nghiệp nhằm mang đến cho khách hàng những trải nghiệm ẩm thực tuyệt vời và đa dạng. Chúng tôi hiểu rằng sự đa dạng là một yếu tố quan trọng trong ngành ẩm thực, và chúng tôi muốn cung cấp một menu phong phú, đáp ứng sở thích và nhu cầu đa dạng của khách hàng.</div>
-        <div class="essay_box">Nhà Hàng GTX</div>
+        <!-- <div class="essay_box">Nhà Hàng GTX</div> -->
+        <button class="essay_box">Nhà Hàng GTX</button>
     </div>
     <div class="break"></div>
     <div class="poster">
@@ -338,9 +383,55 @@
         <div class="article_picture"><img src="/images/DichVu/plane.png" alt="plane"></div>
         <div class="article_title">Đặt Vé</div>
         <div class="article_text">Hôm nay, hãy tận dụng thời gian của mình để khám phá những điều mới mẻ và tưởng chừng xa xôi. Có thể bạn muốn đến một công viên, đi dạo bên bờ biển, khám phá một khu vườn hoặc tham gia vào một hoạt động thể thao ngoài trời. Cảnh quan thiên nhiên và không gian xanh sẽ giúp bạn thư giãn và tạo ra những kỷ niệm đáng nhớ.</div>
-        <div class="article_box" onclick="window.location.href='https://www.vietnamairlines.com';">Đặt Vé Ngay</div>
+        <!-- <div class="article_box" onclick="window.location.href='https://www.vietnamairlines.com';">Đặt Vé Ngay</div> -->
+        <button class="article_box" onclick="window.location.href='https://www.vietnamairlines.com';">Đặt vé ngay</button>
     </div>
     <div class="break"></div>
 </div>  
+<div class="footer container-fluid">
+    <div class="row">
+        <div class="rol-sm-3">
+            <div class="media">
+                <div class="media-body">
+                    <h3 class="media-heading text-center">LIÊN HỆ</h3>
+                    <a>1900 54 54 13</a><br>
+                    <a href="./html/CoCheToGiac.html">Cơ chế tố giác</a><br>
+                    <a href="./html/KhachHangCaNhan/Email.html">Email liên hệ</a><br>
+                </div>
+            </div>
+        </div>
+        <div class="rol-sm-3">
+            <div class="media">
+                <div class="media-body">
+                    <h3 class="media-heading text-center">MEMBERSHIP</h3>
+                    <a href="./html/KhachHangCaNhan/KhachHangCaNhan.html">Khách hàng cá nhân</a><br>
+                    <a href="./html/KhachHangUuTien/KhachHangUuTien.html">Khách hàng ưu tiên</a><br>
+                </div>
+            </div>
+        </div>
+        <div class="rol-sm-3">
+            <div class="media">
+                <div class="media-body">
+                    <h3 class="media-heading text-center">CÔNG CỤ & TIỆN ÍCH</h3>
+                    <a href="./html/CongCuTienIch/TyGia.html">Tỷ giá</a><br>
+                    <a href="./html/CongCuTienIch/LaiSuat.html">Lãi suất</a><br>
+                    <a href="./html/CongCuTienIch/BieuPhi/BieuPhi.html">Biểu phí</a><br>
+                    <a href="./html/CongCuTienIch/BieuMau/BieuMau.html">Biểu mẫu</a><br>
+                    <a href="./html/CongCuTienIch/TraCuuSoTietKiem.html">Tra cứu sổ tiết kiệm</a><br>
+                </div>
+            </div>
+        </div>
+        <div class="rol-sm-3">
+            <div class="media">
+                <div class="media-body">
+                    <h3 class="media-heading"></h3>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a><br>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></i></a><br>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

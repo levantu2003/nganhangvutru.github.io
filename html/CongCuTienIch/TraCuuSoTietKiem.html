@@ -5,17 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" href="/images/icon/icon.png">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/khachhangcanhan.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/93c0950cc1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="current">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Odyssey Bank</a>
+            </div><!-- Navbar-header: dùng để chứa tên website -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="../GioiThieu.html">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="../EmailLienHe.html">Liên hệ</a>
+                    </li>
+                    <li>
+                        <a href="../DiemDen.html">Điểm đến</a>
+                    </li>
+                    <li>
+                        <a href="../DichVu.html">Dịch vụ</a>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Thành viên<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../KhachHangCaNhan/KhachHangCaNhan.html">Khách hàng cá nhân</a></li>
+                            <li><a href="../KhachHangUuTien/KhachHangUuTien.html">Khách hàng ưu tiên</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../KhachHangUuTien/TinTucSuKien.html">Tin tức</a>
+                    </li>
+                </ul>
+            </div><!-- Navbar-collapse: dùng để chứa các chức năng của website -->
+        </div>
+    </nav>
+    <div class="container tracuu">
         <div class="jumbotron">
             <h2>TRA CỨU THÔNG TIN TÀI KHOẢN TIẾT KIỆM</h2>
             <form action="#">
@@ -43,6 +79,51 @@
                     </div>
                 </div>
             </form>
+        </div>
+    </div>
+    <div class="footer container-fluid">
+        <div class="row">
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading text-center">LIÊN HỆ</h3>
+                        <a>1900 54 54 13</a><br>
+                        <a href="../CoCheToGiac.html">Cơ chế tố giác</a><br>
+                        <a href="../KhachHangCaNhan/Email.html">Email liên hệ</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading text-center">MEMBERSHIP</h3>
+                        <a href="../KhachHangCaNhan/KhachHangCaNhan.html">Khách hàng cá nhân</a><br>
+                        <a href="../KhachHangUuTien/KhachHangUuTien.html">Khách hàng ưu tiên</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading text-center">CÔNG CỤ & TIỆN ÍCH</h3>
+                        <a href="../CongCuTienIch/TyGia.html">Tỷ giá</a><br>
+                        <a href="../CongCuTienIch/LaiSuat.html">Lãi suất</a><br>
+                        <!-- <a href="./html/CongCuTienIch/BieuPhi/BieuPhi.html">Biểu phí</a><br>
+                        <a href="./html/CongCuTienIch/BieuMau/BieuMau.html">Biểu mẫu</a><br> -->
+                        <a href="../CongCuTienIch/TraCuuSoTietKiem.html">Tra cứu sổ tiết kiệm</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading"></h3>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a><br>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></i></a><br>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
