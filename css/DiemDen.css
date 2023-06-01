@@ -1,30 +1,27 @@
 /* ========================================= COMMON ========================================= */
-html:hover
-{
+html:hover {
     cursor: default;
 }
 
 /* ========================================== ITEM ========================================== */
-.item
-{
+.item {
     position: relative;
     width: 100%;
     height: 100%;
 }
-.item_picture
-{
+
+.item_picture {
     position: absolute;
     width: 100%;
     height: 100%;
-
     transition: opacity 2s;
 }
-.item_picture img
-{
+
+.item_picture img {
     object-fit: fill;
 }
-.item_title
-{
+
+.item_title {
     display: flex;
     position: absolute;
     width: 100%;
@@ -37,8 +34,8 @@ html:hover
     font-weight: bold;
     color: #0A4D68;
 }
-.item_paragraph
-{
+
+.item_paragraph {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -46,8 +43,8 @@ html:hover
     opacity: 0;
     transition: opacity 2s;
 }
-.item_info
-{
+
+.item_info {
     display: flex;
     position: absolute;
     width: 90%;
@@ -60,8 +57,8 @@ html:hover
     font-size: 25px;
     text-align: justify;
 }
-.item_box
-{
+
+.item_box {
     display: flex;
     position: absolute;
     width: 70%;
@@ -70,18 +67,18 @@ html:hover
     left: 15%;
     justify-content: center;
     align-items: center;
-    
+
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     border: 5px solid #DDDDDD;
     color: #FFFFFF;
     background-color: #0A4D68;
 }
-.item:hover .item_picture
-{
+
+.item:hover .item_picture {
     opacity: 0.2;
 }
-.item:hover .item_paragraph
-{
+
+.item:hover .item_paragraph {
     opacity: 1;
 }

@@ -1,7 +1,7 @@
 /* ========================================= COMMON ========================================= */
-#color_picker
-{
-    content: "Palet #1"; /* This is the logo pallet */
+#color_picker {
+    content: "Palet #1";
+    /* This is the logo pallet */
     color: #79E0EE;
     color: #98EECC;
     color: #D0F5BE;
@@ -16,7 +16,8 @@
     content: "Palet #3";
     color: #F0FF42;
     color: #82CD47;
-    color: #54B435; /* This is the color of most icon */
+    color: #54B435;
+    /* This is the color of most icon */
     color: #379237;
 
     content: "Palent #4";
@@ -37,88 +38,89 @@
     color: #C07F00;
     color: #4C3D3D;
 }
-@font-face 
-{
+
+@font-face {
     font-family: "Great Vibes";
     src: url(/font/great_vibes.ttf);
 }
-@font-face 
-{
+
+@font-face {
     font-family: "Prata";
     src: url(/font/prata.ttf);
 }
-html
-{
+
+html {
     scroll-behavior: smooth;
 }
-div
-{
+
+div {
     overflow: hidden;
     box-sizing: border-box;
 }
-img
-{
+
+img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-a
-{
+
+a {
     text-decoration: none;
     color: #FFFFFF;
 }
-button, input, select
-{
+
+button,
+input,
+select {
     width: 100%;
     height: 100%;
-    
+
     border: none;
     box-sizing: border-box;
     background-color: transparent;
 }
-button:hover
-{
+
+button:hover {
     cursor: pointer;
 }
-#content
-{
+
+#content {
     position: relative;
 }
-.break
-{
+
+.break {
     position: relative;
     width: 100%;
     height: 5%;
 }
-.find
-{
+
+.find {
     position: relative;
     width: 0%;
     height: 0%;
 }
-.tab
-{
+
+.tab {
     display: none;
 }
 
 /* ========================================= TITILE ========================================= */
-.title
-{
+.title {
     position: relative;
     width: 100%;
     height: 30%;
     margin-top: 50px;
 }
-.title_background
-{
+
+.title_background {
     position: absolute;
     width: 100%;
     height: 100%;
 
     filter: brightness(0.4);
 }
-.title_title
-{
+
+.title_title {
     display: flex;
     position: absolute;
     width: 40%;
@@ -132,8 +134,8 @@ button:hover
     font-weight: bold;
     color: #F0FF42;
 }
-.title_subtitle
-{
+
+.title_subtitle {
     display: flex;
     position: absolute;
     /* width: 40%;
@@ -151,14 +153,13 @@ button:hover
 }
 
 /* ========================================= ARTICLE ======================================== */
-.article
-{
+.article {
     position: relative;
     width: 100%;
     height: 50%;
 }
-.article_picture
-{
+
+.article_picture {
     position: absolute;
     width: 40%;
     height: 90%;
@@ -167,8 +168,8 @@ button:hover
 
     border-radius: 20px;
 }
-.article_title
-{
+
+.article_title {
     display: flex;
     position: absolute;
     width: 40%;
@@ -183,8 +184,8 @@ button:hover
     font-weight: bold;
     color: #0A4D68;
 }
-.article_text
-{
+
+.article_text {
     position: absolute;
     width: 40%;
     height: 30%;
@@ -196,11 +197,11 @@ button:hover
     font-style: italic;
     text-align: justify;
 }
-.article_box
-{
+
+.article_box {
     position: absolute;
     background-color: #0A4D68;
-    width: 100px;
+    width: 120px;
     height: 50px;
     left: 75%;
     top: 70%;
@@ -208,20 +209,19 @@ button:hover
     border: 5px solid #DDDDDD;
     color: #fff;
 }
-.article_box:hover
-{
+
+.article_box:hover {
     cursor: pointer;
 }
 
 /* ========================================= ESSAY ========================================== */
-.essay
-{
+.essay {
     position: relative;
     width: 100%;
     height: 500px;
 }
-.essay_title
-{
+
+.essay_title {
     display: flex;
     position: absolute;
     width: 40%;
@@ -236,8 +236,8 @@ button:hover
     font-weight: bold;
     color: #0A4D68;
 }
-.essay_text
-{
+
+.essay_text {
     position: absolute;
     width: 40%;
     top: 25%;
@@ -248,8 +248,8 @@ button:hover
     text-align: justify;
     overflow: visible;
 }
-.essay_box
-{
+
+.essay_box {
     position: absolute;
     background-color: #0A4D68;
     width: 100px;
@@ -261,12 +261,12 @@ button:hover
     color: #fff;
 
 }
-.essay_box:hover
-{
+
+.essay_box:hover {
     cursor: pointer;
 }
-.essay_picture
-{
+
+.essay_picture {
     position: absolute;
     width: 40%;
     height: 90%;
@@ -277,28 +277,27 @@ button:hover
 }
 
 /* ========================================= DISPLAY ======================================== */
-.display
-{
+.display {
     position: relative;
     width: 100%;
     height: 60%;
 }
-.display_one
-{
+
+.display_one {
     position: absolute;
     width: 30%;
     height: 100%;
     left: 2.5%;
 }
-.display_two
-{
+
+.display_two {
     position: absolute;
     width: 30%;
     height: 100%;
     left: 35%;
 }
-.display_three
-{
+
+.display_three {
     position: absolute;
     width: 30%;
     height: 100%;
@@ -306,20 +305,19 @@ button:hover
 }
 
 /* ========================================= POSTER ========================================= */
-.poster
-{
+.poster {
     position: relative;
     width: 100%;
     height: 50%;
 }
-.poster_image
-{
+
+.poster_image {
     position: absolute;
     width: 100%;
     height: 100%;
 }
-.poster_title
-{
+
+.poster_title {
     display: flex;
     position: absolute;
     width: 40%;
@@ -335,8 +333,8 @@ button:hover
     color: #54B435;
     background-color: transparent;
 }
-.poster_blur
-{
+
+.poster_blur {
     position: absolute;
     width: 40%;
     height: 20%;
@@ -344,5 +342,5 @@ button:hover
     left: 0.75%;
 
     background-color: #FFFFFF;
-    filter:blur(20px);
+    filter: blur(20px);
 }

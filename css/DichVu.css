@@ -1,20 +1,19 @@
 /* ========================================= COMMON ========================================= */
 
 /* ========================================== ITEM ========================================== */
-.item
-{
+.item {
     position: relative;
     width: 100%;
     height: 100%;
 }
-.item_picture
-{
+
+.item_picture {
     position: absolute;
     width: 100%;
     height: 80%;
 }
-.item_title
-{
+
+.item_title {
     display: flex;
     position: absolute;
     width: 90%;
@@ -29,8 +28,8 @@
     color: #54B435;
     transition: color 1s;
 }
-.item_box
-{
+
+.item_box {
     display: flex;
     position: absolute;
     width: 100%;
@@ -39,7 +38,7 @@
     padding-left: 5%;
     padding-right: 5%;
     align-items: center;
-    
+
     font-family: "Prata";
     font-size: 25px;
     opacity: 0;
@@ -49,22 +48,21 @@
 }
 
 /* ========================================== CARD ========================================== */
-#card
-{
+#card {
     position: relative;
     width: 100%;
     height: 100%;
 }
-#card_background
-{
+
+#card_background {
     position: absolute;
     width: 100%;
     height: 100%;
 
     opacity: 0.6;
 }
-#card_front
-{
+
+#card_front {
     position: absolute;
     width: 40%;
     height: 50%;
@@ -75,8 +73,8 @@
     border-radius: 20px;
     background-color: #05BFDB;
 }
-#card_logo
-{
+
+#card_logo {
     display: flex;
     position: absolute;
     width: 40%;
@@ -86,17 +84,17 @@
     align-items: center;
 
     font-family: "Prata";
-    font-size: 30px;
+    /* /*font-size: 30px;*/ 
     color: #FFFFFF;
 }
-#card_logo img
-{
+
+#card_logo img {
     width: 20%;
     height: 100%;
     margin-right: 5%;
 }
-#card_type
-{
+
+#card_type {
     display: flex;
     position: absolute;
     width: 40%;
@@ -105,21 +103,21 @@
     right: 2.5%;
     justify-content: right;
     align-items: center;
-    
+
     font-family: "Prata";
     font-size: 45px;
     color: #FFFFFF;
 }
-#card_chip
-{
+
+#card_chip {
     position: absolute;
     width: 20%;
     height: 30%;
     top: 20%;
     left: 12.5%;
 }
-#card_number
-{
+
+#card_number {
     display: flex;
     position: absolute;
     width: 95%;
@@ -133,8 +131,8 @@
     letter-spacing: 10px;
     color: #FFFFFF;
 }
-#card_cardholder
-{
+
+#card_cardholder {
     display: flex;
     position: absolute;
     width: 60%;
@@ -147,8 +145,8 @@
     font-size: 40px;
     color: #FFFFFF;
 }
-#card_date
-{
+
+#card_date {
     display: flex;
     position: absolute;
     width: 40%;
@@ -159,11 +157,11 @@
     align-items: center;
 
     font-family: "Prata";
-    font-size: 30px;
+    /* /*font-size: 30px;*/ 
     color: #FFFFFF;
 }
-#card_back
-{
+
+#card_back {
     position: absolute;
     width: 40%;
     height: 50%;
@@ -174,8 +172,8 @@
     border-radius: 20px;
     background-color: #05BFDB;
 }
-#card_top
-{
+
+#card_top {
     position: absolute;
     width: 100%;
     height: 15%;
@@ -183,8 +181,8 @@
 
     background-color: #FFFFFF;
 }
-#card_information
-{
+
+#card_information {
     position: absolute;
     width: 70%;
     height: 50%;
@@ -192,14 +190,14 @@
     margin: 1%;
 
     font-family: "Prata";
-    font-size: 30px;
+    /* /*font-size: 30px;*/ 
     font-style: italic;
     text-align: justify;
     color: #FFFFFF;
     overflow: visible;
 }
-#card_password
-{
+
+#card_password {
     display: flex;
     position: absolute;
     width: 30%;
@@ -210,11 +208,11 @@
     align-items: center;
 
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     color: #FFFFFF;
 }
-#card_bottom
-{
+
+#card_bottom {
     position: absolute;
     width: 100%;
     height: 15%;
@@ -222,8 +220,8 @@
 
     background-color: #FFFFFF;
 }
-#card_input
-{
+
+#card_input {
     position: absolute;
     width: 95%;
     height: 40%;
@@ -233,8 +231,8 @@
     border: 5px solid #DDDDDD;
     background-color: #FFFFFF;
 }
-#card_title
-{
+
+#card_title {
     display: flex;
     position: absolute;
     width: 50%;
@@ -249,49 +247,49 @@
     font-weight: bold;
     color: #54B435;
 }
-.card_catagory
-{
+
+.card_catagory {
     position: absolute;
     width: 100%;
     height: 40%;
 
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     text-decoration: underline;
 }
-.card_input
-{
+
+.card_input {
     position: absolute;
     width: 100%;
     height: 50%;
     bottom: 0%;
 }
-.card_input select
-{
+
+.card_input select {
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     border: 2px solid #DDDDDD;
 }
-.card_input input
-{
+
+.card_input input {
     padding-left: 1.5%;
     padding-right: 1.5%;
 
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     text-transform: capitalize;
     border: 2px solid #DDDDDD;
 }
-#card_types
-{  
+
+#card_types {
     position: absolute;
     width: 20%;
     height: 25%;
     top: 25%;
     left: 6.25%;
 }
-#card_info
-{
+
+#card_info {
     position: absolute;
     width: 27.5%;
     height: 40%;
@@ -302,56 +300,56 @@
     font-size: 25px;
     text-align: justify;
 }
-#card_name
-{
+
+#card_name {
     position: absolute;
     width: 20%;
     height: 25%;
     top: 25%;
-    right: 47.5%; 
+    right: 47.5%;
 }
-#card_numbers
-{
+
+#card_numbers {
     position: absolute;
     width: 20%;
-    height: 25%;    
+    height: 25%;
     top: 55%;
-    right: 47.5%; 
+    right: 47.5%;
 }
-#card_month
-{
+
+#card_month {
     position: absolute;
     width: 20%;
     height: 25%;
     top: 25%;
-    right: 25%; 
+    right: 25%;
 }
-#card_color
-{
+
+#card_color {
     position: absolute;
     width: 20%;
     height: 25%;
     top: 55%;
-    right: 25%; 
+    right: 25%;
 }
-#card_pass
-{
+
+#card_pass {
     position: absolute;
     width: 20%;
     height: 25%;
     top: 25%;
     right: 2.5%;
 }
-#card_submit
-{
+
+#card_submit {
     position: absolute;
     width: 20%;
     height: 25%;
     top: 55%;
     right: 2.5%;
 }
-#card_box
-{
+
+#card_box {
     display: flex;
     position: absolute;
     width: 10%;
@@ -362,7 +360,7 @@
     align-items: center;
 
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     color: #FFFFFF;
     border: 5px solid #DDDDDD;
     background-color: #379237;
@@ -370,22 +368,21 @@
 }
 
 /* ========================================= STYLIST ======================================== */
-.sty
-{
+.sty {
     position: relative;
     width: 100%;
     height: 100%;
 }
-.sty_background
-{
+
+.sty_background {
     position: absolute;
     width: 100%;
     height: 100%;
 
     opacity: 0.6;
 }
-.sty_title
-{
+
+.sty_title {
     display: flex;
     position: absolute;
     width: 20%;
@@ -396,13 +393,13 @@
     align-items: center;
 
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     color: #FFFFFF;
     border: 5px solid #DDDDDD;
     background-color: #379237;
 }
-.sty_one
-{
+
+.sty_one {
     position: absolute;
     width: 30%;
     height: 50%;
@@ -410,8 +407,8 @@
     left: 2.5%;
     transition: height 2s;
 }
-.sty_two
-{
+
+.sty_two {
     position: absolute;
     width: 30%;
     height: 50%;
@@ -419,8 +416,8 @@
     left: 35%;
     transition: top 2s, height 2s;
 }
-.sty_three
-{
+
+.sty_three {
     position: absolute;
     width: 30%;
     height: 50%;
@@ -429,23 +426,24 @@
     z-index: 5;
     transition: height 2s;
 }
-.sty_one:hover, .sty_three:hover
-{
+
+.sty_one:hover,
+.sty_three:hover {
     height: 70%;
 }
-.sty_two:hover
-{
+
+.sty_two:hover {
     top: 5%;
     height: 90%;
 }
-.sty_image
-{
+
+.sty_image {
     position: absolute;
     width: 100%;
     height: 80%;
 }
-.sty_step
-{
+
+.sty_step {
     display: flex;
     position: absolute;
     width: 100%;
@@ -455,12 +453,12 @@
     align-items: center;
 
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     color: #FFFFFF;
     background-color: #0A4D68;
 }
-.sty_box
-{
+
+.sty_box {
     display: flex;
     position: absolute;
     width: 20%;
@@ -471,77 +469,77 @@
     align-items: center;
 
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     color: #FFFFFF;
     border: 5px solid #DDDDDD;
-    background-color: #379237;;
+    background-color: #379237;
+    ;
 }
 
 
 /* ======================================= MEMBERSHIP ======================================= */
-#mem
-{
+#mem {
     position: relative;
     width: 100%;
     height: 100%;
 }
-#mem_background
-{
+
+#mem_background {
     position: absolute;
     width: 100%;
     height: 100%;
 
     opacity: 0.6;
 }
-#mem_one
-{
+
+#mem_one {
     top: 10%;
     left: 7.5%;
 
     background-color: #FBFFDC;
 }
-#mem_two
-{
+
+#mem_two {
     top: 10%;
     left: 25%;
 
     background-color: #D0F5BE;
 }
-#mem_three
-{
+
+#mem_three {
     top: 10%;
     left: 42.5%;
 
     background-color: #98EECC;
 }
-#mem_four
-{
+
+#mem_four {
     top: 10%;
     left: 60%;
 
     background-color: #79E0EE;
 }
-#mem_special
-{
+
+#mem_special {
     top: 10%;
     right: 7.5%;
 
     color: #FFFFFF;
     background-color: #379237;
 }
-.mem_mem
-{
+
+.mem_mem {
     position: absolute;
     width: 15%;
     height: 80%;
 
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     color: #000000;
     border-radius: 20px;
 }
-.mem_header
-{
+
+.mem_header {
     display: flex;
     position: absolute;
     width: 100%;
@@ -549,8 +547,8 @@
     justify-content: center;
     align-items: center;
 }
-.mem_price
-{
+
+.mem_price {
     display: flex;
     position: absolute;
     width: 100%;
@@ -563,26 +561,26 @@
     color: #FFFFFF;
     background-color: #088395;
 }
-.mem_content
-{
+
+.mem_content {
     position: absolute;
     width: 100%;
     height: 55%;
     top: 30%;
 }
-.mem_service
-{
+
+.mem_service {
     display: flex;
     width: 100%;
     height: 25%;
     justify-content: center;
     align-items: center;
-    
+
     text-align: center;
     border-bottom: 5px solid #088395;
 }
-.mem_footer
-{
+
+.mem_footer {
     display: flex;
     position: absolute;
     width: 100%;
@@ -590,12 +588,12 @@
     bottom: 0%;
     justify-content: center;
     align-items: center;
-    
+
     color: #FFFFFF;
     background-color: #088395;
 }
-#mem_out
-{
+
+#mem_out {
     display: flex;
     position: absolute;
     width: 60%;
@@ -605,36 +603,35 @@
     justify-content: center;
     align-items: center;
     transform: rotate(45deg);
-    
+
 
     font-family: "Prata";
     font-size: 20px;
     color: #FFFFFF;
     background-color: #FF0000;
 }
-.mem_footer:hover
-{
+
+.mem_footer:hover {
     cursor: pointer;
     color: #F0FF42;
 }
 
 /* ========================================= ACCOUNT ======================================== */
-#acc
-{
+#acc {
     position: relative;
     width: 100%;
     height: 100%;
 }
-#acc_background
-{
+
+#acc_background {
     position: absolute;
     width: 100%;
     height: 100%;
 
     opacity: 0.6;
 }
-#acc_form
-{
+
+#acc_form {
     position: absolute;
     width: 95%;
     height: 90%;
@@ -645,8 +642,8 @@
     border: 5px solid #DDDDDD;
     background-color: #FFFFFF;
 }
-#acc_title
-{
+
+#acc_title {
     display: flex;
     position: absolute;
     width: 25%;
@@ -660,8 +657,8 @@
     font-weight: bold;
     color: #54B435;
 }
-#acc_basic
-{
+
+#acc_basic {
     position: absolute;
     width: 40%;
     height: 75%;
@@ -670,8 +667,8 @@
 
     border: 5px solid #DDDDDD;
 }
-#acc_legal
-{
+
+#acc_legal {
     position: absolute;
     width: 45%;
     height: 30%;
@@ -680,8 +677,8 @@
 
     border: 5px solid #DDDDDD;
 }
-#acc_bank   
-{
+
+#acc_bank {
     position: absolute;
     width: 45%;
     height: 35%;
@@ -690,16 +687,16 @@
 
     border: 5px solid #DDDDDD;
 }
-#acc_action
-{
+
+#acc_action {
     position: absolute;
     width: 40%;
     height: 10%;
     top: 2.5%;
     right: 8.75%;
 }
-#acc_basic_subtitle
-{
+
+#acc_basic_subtitle {
     display: flex;
     position: absolute;
     width: 20%;
@@ -715,8 +712,8 @@
     border: 5px solid #DDDDDD;
     background-color: #FFFFFF;
 }
-#acc_legal_subtitle
-{
+
+#acc_legal_subtitle {
     display: flex;
     position: absolute;
     width: 20%;
@@ -732,8 +729,8 @@
     border: 5px solid #DDDDDD;
     background-color: #FFFFFF;
 }
-#acc_bank_subtitle
-{
+
+#acc_bank_subtitle {
     display: flex;
     position: absolute;
     width: 20%;
@@ -749,174 +746,174 @@
     border: 5px solid #DDDDDD;
     background-color: #FFFFFF;
 }
-.acc_catagory
-{
+
+.acc_catagory {
     position: absolute;
     width: 100%;
     height: 40%;
 
-    font-size: 30px;
+    /*font-size: 30px;*/
     text-decoration: underline;
 }
-.acc_input
-{
+
+.acc_input {
     position: absolute;
     width: 100%;
     height: 50%;
     bottom: 0%;
 }
-.acc_input input
-{
+
+.acc_input input {
     padding-left: 1.5%;
     padding-right: 1.5%;
 
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     text-transform: capitalize;
     border: 2px solid #DDDDDD;
 }
-.acc_input select
-{
+
+.acc_input select {
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     border: 2px solid #DDDDDD;
 }
-#acc_name
-{
+
+#acc_name {
     position: absolute;
     width: 40%;
     height: 15%;
     top: 10%;
     left: 7.5%;
 }
-#acc_surname
-{
+
+#acc_surname {
     position: absolute;
     width: 40%;
     height: 15%;
     top: 10%;
     right: 7.5%;
 }
-#acc_gender
-{
+
+#acc_gender {
     position: absolute;
     width: 40%;
     height: 15%;
     top: 27.5%;
     left: 7.5%;
 }
-#acc_ethnic
-{
+
+#acc_ethnic {
     position: absolute;
     width: 40%;
     height: 15%;
     top: 27.5%;
     right: 7.5%;
 }
-#acc_dob
-{
+
+#acc_dob {
     position: absolute;
     width: 40%;
     height: 15%;
     top: 45%;
     left: 7.5%;
 }
-#acc_pob
-{
+
+#acc_pob {
     position: absolute;
     width: 40%;
     height: 15%;
     top: 45%;
     right: 7.5%;
 }
-#acc_phone
-{
+
+#acc_phone {
     position: absolute;
     width: 40%;
     height: 15%;
     top: 62.5%;
     left: 7.5%;
 }
-#acc_email
-{
+
+#acc_email {
     position: absolute;
     width: 40%;
     height: 15%;
     top: 62.5%;
     right: 7.5%;
 }
-#acc_image
-{
+
+#acc_image {
     position: absolute;
     width: 85%;
     height: 15%;
     top: 80%;
     right: 7.5%;
 }
-#acc_image input::file-selector-button
-{
+
+#acc_image input::file-selector-button {
     font-family: "Prata";
     border: none;
     padding-top: 1%;
 }
-#acc_nid
-{
+
+#acc_nid {
     position: absolute;
     width: 40%;
     height: 35%;
     top: 20%;
     left: 7.5%;
 }
-#acc_nal
-{
-    position: absolute;
-    width: 40%;
-    height: 35%;
-    top: 20%;
-    right: 7.5%;
-}
-#acc_dor
-{
-    position: absolute;
-    width: 40%;
-    height: 35%;
-    top: 57.5%;
-    left: 7.5%;
-}
-#acc_por
-{
-    position: absolute;
-    width: 40%;
-    height: 35%;
-    top: 57.5%;
-    right: 7.5%;
-}
-#acc_id
-{
-    position: absolute;
-    width: 40%;
-    height: 35%;
-    top: 20%;
-    left: 7.5%;
-}
-#acc_pass
-{
+
+#acc_nal {
     position: absolute;
     width: 40%;
     height: 35%;
     top: 20%;
     right: 7.5%;
 }
-#acc_holder
-{
+
+#acc_dor {
     position: absolute;
     width: 40%;
     height: 35%;
     top: 57.5%;
     left: 7.5%;
 }
-#acc_accept
-{
+
+#acc_por {
+    position: absolute;
+    width: 40%;
+    height: 35%;
+    top: 57.5%;
+    right: 7.5%;
+}
+
+#acc_id {
+    position: absolute;
+    width: 40%;
+    height: 35%;
+    top: 20%;
+    left: 7.5%;
+}
+
+#acc_pass {
+    position: absolute;
+    width: 40%;
+    height: 35%;
+    top: 20%;
+    right: 7.5%;
+}
+
+#acc_holder {
+    position: absolute;
+    width: 40%;
+    height: 35%;
+    top: 57.5%;
+    left: 7.5%;
+}
+
+#acc_accept {
     position: absolute;
     width: 40%;
     height: 35%;
@@ -925,16 +922,16 @@
 
     font-size: 20px;
 }
-#acc_accept_one
-{
+
+#acc_accept_one {
     display: flex;
     position: absolute;
     width: 100%;
     height: 50%;
     align-items: center;
 }
-#acc_accept_two
-{
+
+#acc_accept_two {
     display: flex;
     position: absolute;
     width: 100%;
@@ -942,42 +939,43 @@
     bottom: 0%;
     align-items: center;
 }
-#acc_accept input
-{
+
+#acc_accept input {
     width: 15%;
     height: 80%;
 }
-#acc_accept a
-{
+
+#acc_accept a {
     color: #000000;
     text-decoration: underline;
 }
-#acc_submit
-{
+
+#acc_submit {
     position: absolute;
     width: 40%;
     height: 90%;
     top: 5%;
     left: 7.5%;
 }
-#acc_reset
-{
+
+#acc_reset {
     position: absolute;
     width: 40%;
     height: 90%;
     top: 5%;
     right: 7.5%;
 }
-#acc input[type="submit"], #acc input[type="reset"]
-{
+
+#acc input[type="submit"],
+#acc input[type="reset"] {
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     color: #FFFFFF;
     border: 2px solid #DDDDDD;
     background-color: #379237;
 }
-#acc_fin
-{
+
+#acc_fin {
     display: none;
     position: absolute;
     width: 87.5%;
@@ -995,41 +993,40 @@
 }
 
 /* ======================================== EXCHANGE ======================================== */
-#exc
-{
+#exc {
     position: relative;
     width: 100%;
     height: 100%;
 }
-#exc_background
-{
+
+#exc_background {
     position: absolute;
     width: 100%;
     height: 100%;
 
     opacity: 0.6;
 }
-.exc_style
-{
+
+.exc_style {
     position: absolute;
     width: 20%;
     height: 45%;
 
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     border: 5px solid #DDDDDD;
     border-radius: 20px;
 }
-.exc_style > *
-{
+
+.exc_style>* {
     display: flex;
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     justify-content: center;
     align-items: center;
 }
-.exc_logo
-{
+
+.exc_logo {
     display: flex;
     position: absolute;
     width: 100%;
@@ -1040,15 +1037,15 @@
 
     background-color: #DDDDDD;
 }
-.exc_logo img
-{
+
+.exc_logo img {
     width: 50%;
     height: 100%;
 
     object-fit: fill;
 }
-.exc_input
-{
+
+.exc_input {
     position: absolute;
     width: 100%;
     height: 20%;
@@ -1056,20 +1053,20 @@
 
     background-color: #DDDDDD;
 }
-.exc_input input
-{
+
+.exc_input input {
     height: 80%;
     margin-top: 4%;
     padding-left: 1.5%;
     padding-right: 1.5%;
 
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     border: 2px solid #000000;
     background-color: #FFFFFF;
 }
-.exc_text
-{
+
+.exc_text {
     position: absolute;
     width: 100%;
     height: 40%;
@@ -1080,92 +1077,91 @@
     color: #000000;
     transition: color 1s, background-color 1s;
 }
-#exc_dollar
-{
+
+#exc_dollar {
     top: 4%;
     left: 4%;
 
     background-color: #FFADAD;
 }
-#exc_euro
-{
+
+#exc_euro {
     top: 4%;
     left: 28%;
 
     background-color: #FFD6A5;
 }
-#exc_dong
-{
+
+#exc_dong {
     top: 4%;
     right: 28%;
 
     background-color: #FDFFB6;
 }
-#exc_pound
-{
+
+#exc_pound {
     top: 4%;
     right: 4%;
 
     background-color: #CAFFBF;
 }
-#exc_won
-{
+
+#exc_won {
     bottom: 4%;
     left: 16%;
 
     background-color: #9BF6FF;
 }
-#exc_yen
-{
+
+#exc_yen {
     bottom: 4%;
     left: 40%;
 
     background-color: #BDB2FF;
 }
-#exc_lira
-{
+
+#exc_lira {
     bottom: 4%;
     right: 16%;
 
     background-color: #FFC6FF;
 }
-.exc_input:has(input:focus) + .exc_text
-{
+
+.exc_input:has(input:focus)+.exc_text {
     color: #FFFFFF;
     background-color: #0A4D68;
 }
 
 /* ========================================= ARTIST ========================================= */
-.art
-{
+.art {
     position: relative;
     width: 100%;
     height: 100%;
 }
-.art_background
-{
+
+.art_background {
     position: absolute;
     width: 100%;
     height: 100%;
 
     opacity: 0.6;
 }
-.art_content
-{
+
+.art_content {
     position: absolute;
     width: 100%;
     height: 40%;
 }
-.art_one
-{
+
+.art_one {
     top: 10%;
 }
-.art_two
-{
+
+.art_two {
     bottom: 10%;
 }
-.art_divide_one
-{
+
+.art_divide_one {
     position: absolute;
     width: 100%;
     height: 10%;
@@ -1173,8 +1169,8 @@
 
     background-color: #DDDDDD;
 }
-.art_divide_two
-{
+
+.art_divide_two {
     position: absolute;
     width: 100%;
     height: 10%;
@@ -1182,16 +1178,16 @@
 
     background-color: #DDDDDD;
 }
-.art_gold
-{
+
+.art_gold {
     display: flex;
     position: absolute;
     width: 30%;
     height: 100%;
     justify-content: center;
 }
-.art_line
-{
+
+.art_line {
     width: 10%;
     height: 100%;
     margin-left: 3%;
@@ -1200,56 +1196,56 @@
 
     background-color: #F0FF42;
 }
-.art_one .art_gold
-{
+
+.art_one .art_gold {
     top: 0%;
     left: 15%;
 }
-.art_two .art_gold
-{
+
+.art_two .art_gold {
     bottom: 0%;
     right: 15%;
 }
-.art_image
-{
+
+.art_image {
     position: absolute;
     width: 27%;
     height: 100%;
-    
+
     border: 5px solid #DDDDDD;
     border-radius: 1000px;
 }
-.art_one .art_image
-{
+
+.art_one .art_image {
     top: 0%;
     right: 15%;
 }
-.art_two .art_image
-{
+
+.art_two .art_image {
     top: 0%;
     left: 15%;
 }
-.art_mini
-{
+
+.art_mini {
     position: absolute;
     width: 13%;
     height: 50%;
-    
+
     border: 5px solid #DDDDDD;
     border-radius: 1000px;
 }
-.art_one .art_mini
-{
+
+.art_one .art_mini {
     bottom: 0%;
     right: 10%;
 }
-.art_two .art_mini
-{
+
+.art_two .art_mini {
     bottom: 0%;
     left: 10%;
 }
-.art_box
-{
+
+.art_box {
     display: flex;
     position: absolute;
     width: 20%;
@@ -1260,21 +1256,21 @@
     align-items: center;
 
     font-family: "Prata";
-    font-size: 30px;
+    /*font-size: 30px;*/
     color: #FFFFFF;
     border: 5px solid #DDDDDD;
     background-color: #379237;
 }
-.art_one .art_box
-{
+
+.art_one .art_box {
     width: 40%;
     height: 20%;
     top: 40%;
     left: 10%;
     background-color: #0A4D68;
 }
-.art_two .art_box
-{
+
+.art_two .art_box {
     width: 40%;
     height: 20%;
     top: 40%;
