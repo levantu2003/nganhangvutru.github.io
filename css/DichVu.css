@@ -84,7 +84,7 @@
     align-items: center;
 
     font-family: "Prata";
-    /* /*font-size: 30px;*/ 
+    /* /*font-size: 30px;*/
     color: #FFFFFF;
 }
 
@@ -105,7 +105,7 @@
     align-items: center;
 
     font-family: "Prata";
-    font-size: 45px;
+    font-size: 30px;
     color: #FFFFFF;
 }
 
@@ -127,7 +127,7 @@
     align-items: center;
 
     font-family: "Prata";
-    font-size: 45px;
+    font-size: 30px;
     letter-spacing: 10px;
     color: #FFFFFF;
 }
@@ -157,7 +157,7 @@
     align-items: center;
 
     font-family: "Prata";
-    /* /*font-size: 30px;*/ 
+    /* /*font-size: 30px;*/
     color: #FFFFFF;
 }
 
@@ -190,7 +190,7 @@
     margin: 1%;
 
     font-family: "Prata";
-    /* /*font-size: 30px;*/ 
+    /* /*font-size: 30px;*/
     font-style: italic;
     text-align: justify;
     color: #FFFFFF;
@@ -243,7 +243,7 @@
     align-items: center;
 
     font-family: "Prata";
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     color: #54B435;
 }
@@ -297,7 +297,7 @@
     left: 2.5%;
 
     font-family: "Prata";
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -606,7 +606,7 @@
 
 
     font-family: "Prata";
-    font-size: 20px;
+    font-size: 15px;
     color: #FFFFFF;
     background-color: #FF0000;
 }
@@ -653,7 +653,7 @@
     justify-content: center;
     align-items: center;
 
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: #54B435;
 }
@@ -707,7 +707,7 @@
     align-items: center;
     z-index: 100;
 
-    font-size: 32px;
+    font-size: 25px;
     color: #54B435;
     border: 5px solid #DDDDDD;
     background-color: #FFFFFF;
@@ -724,7 +724,7 @@
     align-items: center;
     z-index: 100;
 
-    font-size: 32px;
+    font-size: 25px;
     color: #54B435;
     border: 5px solid #DDDDDD;
     background-color: #FFFFFF;
@@ -741,7 +741,7 @@
     align-items: center;
     z-index: 100;
 
-    font-size: 32px;
+    font-size: 25px;
     color: #54B435;
     border: 5px solid #DDDDDD;
     background-color: #FFFFFF;
@@ -915,7 +915,7 @@
 
 #acc_accept {
     position: absolute;
-    width: 40%;
+    width: 50%;
     height: 35%;
     top: 57.5%;
     right: 7.5%;
@@ -1072,7 +1072,7 @@
     height: 40%;
     bottom: 0%;
 
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
     color: #000000;
     transition: color 1s, background-color 1s;
