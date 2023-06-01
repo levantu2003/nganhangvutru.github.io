@@ -1,10 +1,11 @@
 <html>
+
 <head>
     <title>Odyssey Bank - Dịch vụ</title>
     <link rel="icon" href="/images/icon/icon.png">
     <link rel="stylesheet" href="/css/long.css">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/service.css">
+    <link rel="stylesheet" href="/css/DichVu.css">
     <script src="../js/service.js"></script>
     <script src="../js/destination.js"></script>
     <!-- Latest compiled and minified CSS -->
@@ -13,578 +14,634 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/93c0950cc1.js" crossorigin="anonymous"></script>  
+    <script src="https://kit.fontawesome.com/93c0950cc1.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<div id="content">
-    <nav class="navbar navbar-inverse navbar-fixed-top" id="current">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="#" class="navbar-brand">Odyssey Bank</a>
-            </div><!-- Navbar-header: dùng để chứa tên website -->
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="/index.html">Trang chủ</a>
-                    </li>
-                    <li>
-                        <a href="./GioiThieu.html">Giới thiệu</a>
-                    </li>
-                    <li>
-                        <a href="./EmailLienHe.html">Liên hệ</a>
-                    </li>
-                    <li>
-                        <a href="./DiemDen.html">Điểm đến</a>
-                    </li>
-                    <li>
-                        <a href="#">Dịch vụ</a>
-                    </li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Thành viên<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="./html/KhachHangCaNhan/KhachHangCaNhan.html">Khách hàng cá nhân</a></li>
-                            <li><a href="./html/KhachHangUuTien/KhachHangUuTien.html">Khách hàng ưu tiên</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="./KhachHangUuTien/TinTucSuKien.html">Tin tức</a>
-                    </li>
-                </ul>
-            </div><!-- Navbar-collapse: dùng để chứa các chức năng của website -->
+    <div id="content">
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="current">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">Odyssey Bank</a>
+                </div><!-- Navbar-header: dùng để chứa tên website -->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="/index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="./GioiThieu.html">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="./EmailLienHe.html">Liên hệ</a>
+                        </li>
+                        <li>
+                            <a href="./DiemDen.html">Điểm đến</a>
+                        </li>
+                        <li>
+                            <a href="#">Dịch vụ</a>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Thành viên<span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./html/KhachHangCaNhan/KhachHangCaNhan.html">Khách hàng cá nhân</a></li>
+                                <li><a href="./html/KhachHangUuTien/KhachHangUuTien.html">Khách hàng ưu tiên</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./KhachHangUuTien/TinTucSuKien.html">Tin tức</a>
+                        </li>
+                    </ul>
+                </div><!-- Navbar-collapse: dùng để chứa các chức năng của website -->
+            </div>
+        </nav>
+        <div class="title">
+            <div class="title_background"><img src="/images/DichVu/support.png" alt="support"></div>
+            <div class="title_title">Dịch Vụ</div>
+            <div class="title_subtitle">Giải pháp và lợi ích tối ưu cho cuộc sống hiện đại</div>
         </div>
-    </nav>
-    <div class="title">
-        <div class="title_background"><img src="/images/DichVu/support.png" alt="support"></div>
-        <div class="title_title">Dịch Vụ</div>
-        <div class="title_subtitle">Giải pháp và lợi ích tối ưu cho cuộc sống hiện đại</div>
-    </div>
-    <div class="break"></div>
-    <div class="article">
-        <div class="article_picture"><img src="/images/DichVu/service.png" alt="service"></div>
-        <div class="article_title">Dịch Vụ</div>
-        <div class="article_text">Với sứ mệnh làm cho tương lai tài chính của bạn thịnh vượng, ngân hàng của chúng tôi tự hào là một người bạn đáng tin cậy trên hành trình của bạn. Hãy đến với chúng tôi và trải nghiệm những dịch vụ và tiện ích vượt trội mà chúng tôi mang đến.</div>
-        <!-- <div class="article_box" onclick="document.getElementById('find_one').scrollIntoView()">Tìm Hiểu Thêm</div> -->
-        <button class="article_box" onclick="document.getElementById('find_one').scrollIntoView()">Tìm Hiểu Thêm</button>
-    </div>
-    <div class="break"></div>
-    <div class="find" id="find_one"></div>
-    <div class="display">
-        <div class="display_one">
-            <div class="item" onclick="appear_tab(0)" onmouseover="hover_item(0)" onmouseout="stop_item(0)">
-                <div class="item_picture"><img src="/images/DichVu/card.png" alt="card"></div>
-                <div class="item_title">Thẻ Tín Dụng</div>
-                <div class="item_box">Sức mạnh thanh toán không giới hạn</div>
-            </div>
+        <div class="break"></div>
+        <div class="article">
+            <div class="article_picture"><img src="/images/DichVu/service.png" alt="service"></div>
+            <div class="article_title">Dịch Vụ</div>
+            <div class="article_text">Với sứ mệnh làm cho tương lai tài chính của bạn thịnh vượng, ngân hàng của chúng
+                tôi tự hào là một người bạn đáng tin cậy trên hành trình của bạn. Hãy đến với chúng tôi và trải nghiệm
+                những dịch vụ và tiện ích vượt trội mà chúng tôi mang đến.</div>
+            <!-- <div class="article_box" onclick="document.getElementById('find_one').scrollIntoView()">Tìm Hiểu Thêm</div> -->
+            <button class="article_box" onclick="document.getElementById('find_one').scrollIntoView()">Tìm Hiểu
+                Thêm</button>
         </div>
-        <div class="display_two">
-            <div class="item" onclick="appear_tab(1)" onmouseover="hover_item(1)" onmouseout="stop_item(1)">
-                <div class="item_picture"><img src="/images/DichVu/withdrawal.png" alt="withdrawal"></div>
-                <div class="item_title">Rút Tiền</div>
-                <div class="item_box">Hưởng tự do tài chính ngay đầu ngón tay</div>
-            </div>
-        </div>
-        <div class="display_three">
-            <div class="item" onclick="appear_tab(2)" onmouseover="hover_item(2)" onmouseout="stop_item(2)">
-                <div class="item_picture"><img src="/images/DichVu/deposit.png" alt="deposit"></div>
-                <div class="item_title">Giử Tiền</div>
-                <div class="item_box">An tâm gửi tiền với bảo mật cao</div>
-            </div>
-        </div>
-    </div>
-    <div class="break"></div>
-    <div class="find" id="find_two"></div>
-    <div class="tab_content">
-        <div id="card" class="tab">
-            <div id="card_background"><img src="/images/DichVu/card.png" alt="card"></div>
-            <div id="card_front">
-                <div id="card_logo"><img src="/images/icon/icon.png" alt="icon"> Odyssey Bank</div>
-                <div id="card_type">Credit Card</div>
-                <div id="card_chip"><img src="/images/icon/chip_white.png" alt="chip_white"></div>
-                <div id="card_number">0123 4567 8901 2345</div>
-                <div id="card_cardholder">JOHN DOE</div>
-                <div id="card_date">From: 06/23 <br>To: 06/28</div>
-            </div>
-            <div id="card_back">
-                <div id="card_top"></div>
-                <div id="card_information">Thẻ thanh toán cho phép chủ thẻ vay tiền từ ngân hàng để mua hàng hoặc thanh toán dịch vụ.</div>
-                <div id="card_password">000</div>
-                <div id="card_bottom"></div>
-            </div>
-            <div id="card_input">
-                <div id="card_title">Tạo Thẻ Tín Dụng</div>
-                <div id="card_types">
-                    <div class="card_catagory">Loại Thẻ</div>
-                    <div class="card_input">
-                        <select name="card_type" id="card_select" onchange="change_card_info()">
-                            <option value="Credit">Credit Card</option>
-                            <option value="Debit">Debit Card</option>
-                            <option value="Luxury">Luxury Card</option>
-                        </select>
-                    </div>
-                </div>
-                <div id="card_info">
-                    Cho phép vay tiền từ ngân hàng để thanh toán dịch vụ.
-                    <br> Những khoản nợ sẽ được thanh toán vào cuối tháng.
-                </div>
-                <div id="card_name">
-                    <div class="card_catagory">Họ và Tên</div>
-                    <div class="card_input"><input type="text" name="card_name" id="card_one" placeholder="JOHN DOE"></div>
-                </div>
-                <div id="card_numbers">
-                    <div class="card_catagory">Mã Số Thẻ</div>
-                    <div class="card_input"><input type="text" name="card_numbers" id="card_two" placeholder="0123 4567 8901 2345"></div>
-                </div>
-                <div id="card_month">
-                    <div class="card_catagory">Tháng Tạo Thẻ</div>
-                    <div class="card_input"><input type="month" name="card_month" id="card_three"></div>
-                </div>
-                <div id="card_color">
-                    <div class="card_catagory">Màu Thẻ</div> 
-                    <div class="card_input"><input type="color" name="card_color" id="card_four" value="#05BFDB"></div>
-                </div>
-                <div id="card_pass">
-                    <div class="card_catagory">Mật Mã PIN</div> 
-                    <div class="card_input"><input type="number" name="card_pass" id="card_five" placeholder="000"></div>
-                </div>
-                <div id="card_submit">
-                    <div class="card_catagory">Tạo Thẻ</div> 
-                    <div class="card_input"><input type="button" onclick="create_card()" value="Tạo Thẻ"></div>
+        <div class="break"></div>
+        <div class="find" id="find_one"></div>
+        <div class="display">
+            <div class="display_one">
+                <div class="item" onclick="appear_tab(0)" onmouseover="hover_item(0)" onmouseout="stop_item(0)">
+                    <div class="item_picture"><img src="/images/DichVu/card.png" alt="card"></div>
+                    <div class="item_title">Thẻ Tín Dụng</div>
+                    <div class="item_box">Sức mạnh thanh toán không giới hạn</div>
                 </div>
             </div>
-            <div id="card_box">Lấy<br>Thẻ<br>Tại<br>Ngân<br>Hàng</div>
-        </div>
-        <div class="sty tab">
-            <div class="sty_background"><img src="/images/DichVu/withdrawal.png" alt="widthdrawl"></div>
-            <div class="sty_title">Hướng Dẫn Rút Tiền</div>
-            <div class="sty_one">
-                <div class="sty_image"><img src="/images/DichVu/atm_one.png" alt="atm_one"></div>
-                <div class="sty_step">1. Tìm ATM gần nhất đối với bạn</div>
+            <div class="display_two">
+                <div class="item" onclick="appear_tab(1)" onmouseover="hover_item(1)" onmouseout="stop_item(1)">
+                    <div class="item_picture"><img src="/images/DichVu/withdrawal.png" alt="withdrawal"></div>
+                    <div class="item_title">Rút Tiền</div>
+                    <div class="item_box">Hưởng tự do tài chính ngay đầu ngón tay</div>
+                </div>
             </div>
-            <div class="sty_two">
-                <div class="sty_image"><img src="/images/DichVu/atm_two.png" alt="atm_two"></div>
-                <div class="sty_step">2. Đưa thẻ vào ATM và nhập mã PIN</div>
-            </div>
-            <div class="sty_three">
-                <div class="sty_image"><img src="/images/DichVu/atm_three.png" alt="atm_three"></div>
-                <div class="sty_step">3. Nhập số tiền bạn cần rút và lấy tiền</div>
-            </div>
-            <div class="sty_box">Rút Tiền Tại ATM</div>
-        </div>
-        <div class="sty tab">
-            <div class="sty_background"><img src="/images/DichVu/deposit.png" alt="deposit"></div>
-            <div class="sty_title">Hướng Dẫn Giử Tiền</div>
-            <div class="sty_one">
-                <div class="sty_image"><img src="/images/DichVu/atm_one.png" alt="atm_one"></div>
-                <div class="sty_step">1. Tìm ATM gần nhất đối với bạn</div>
-            </div>
-            <div class="sty_two">
-                <div class="sty_image"><img src="/images/DichVu/atm_two.png" alt="atm_two"></div>
-                <div class="sty_step">2. Đưa thẻ vào ATM và nhập mã PIN</div>
-            </div>
-            <div class="sty_three">
-                <div class="sty_image"><img src="/images/DichVu/atm_four.png" alt="atm_four"></div>
-                <div class="sty_step">3. Bỏ tiền vào máy và chờ xác nhận</div>
-            </div>
-            <div class="sty_box">Gửi Tiền Tại ATM</div>
-        </div>
-    </div>
-    <div class="break"></div>
-    <div class="display">
-        <div class="display_one">
-            <div class="item" onclick="appear_tab(3)" onmouseover="hover_item(3)" onmouseout="stop_item(3)">
-                <div class="item_picture"><img src="/images/DichVu/account.png" alt="acount"></div>
-                <div class="item_title">Tài Khoản Số</div>
-                <div class="item_box">Chìa khóa tài chính</div>
+            <div class="display_three">
+                <div class="item" onclick="appear_tab(2)" onmouseover="hover_item(2)" onmouseout="stop_item(2)">
+                    <div class="item_picture"><img src="/images/DichVu/deposit.png" alt="deposit"></div>
+                    <div class="item_title">Giử Tiền</div>
+                    <div class="item_box">An tâm gửi tiền với bảo mật cao</div>
+                </div>
             </div>
         </div>
-        <div class="display_two">
-            <div class="item" onclick="appear_tab(4)" onmouseover="hover_item(4)" onmouseout="stop_item(4)">
-                <div class="item_picture"><img src="/images/DichVu/exchange.png" alt="exchange"></div>
-                <div class="item_title">Đổi Ngoại Tệ</div>
-                <div class="item_box">Kết nối thế giới, giao dịch mọi nguồn lực</div>
-            </div>
-        </div>
-        <div class="display_three">
-            <div class="item" onclick="appear_tab(5)" onmouseover="hover_item(5)" onmouseout="stop_item(5)">
-                <div class="item_picture"><img src="/images/DichVu/money.png" alt="money"></div>
-                <div class="item_title">Vay Mượn</div>
-                <div class="item_box">Tiếp sức sự thành công của bạn</div>
-            </div>
-        </div>
-    </div>
-    <div class="break"></div>
-    <div class="find" id="find_three"></div>
-    <div class="tab_content">
-        <div id="acc" class="tab">
-            <div id="acc_background"><img src="/images/DichVu/account.png" alt="account"></div>
-            <form name="acc_form" id="acc_form" onsubmit="return submit_form()" onreset="reset_form()">
-                <div id="acc_title">Đăng Ký Tài Khoản Số</div>
-                <div id="acc_basic_subtitle">Thông Tin Cá Nhân</div>
-                <div id="acc_basic">
-                    <div id="acc_name">
-                        <div class="acc_catagory">Tên</div>
-                        <div class="acc_input"><input type="text" name="acc_name" id="acc_one" oninvalid="this.setCustomValidity('Nhập chữ cái với số lượng từ 1 đến 15')" pattern="[\p{L}\p{M}\s]{1,15}" required></div>
-                    </div>
-                    <div id="acc_surname">
-                        <div class="acc_catagory">Họ</div>
-                        <div class="acc_input"><input type="text" name="acc_surname" id="acc_two" oninvalid="this.setCustomValidity('Nhập chữ cái với số lượng từ 1 đến 15')" pattern="[\p{L}\p{M}\s]{1,15}" required></div>
-                    </div>
-                    <div id="acc_gender">
-                        <div class="acc_catagory">Giới Tính</div>
-                        <div class="acc_input">
-                            <select name="acc_gender" id="acc_three">
-                                <option value="Nam">Nam</option>
-                                <option value="Nữ">Nữ</option>
-                                <option value="Không Rõ">Không Rõ</option>
+        <div class="break"></div>
+        <div class="find" id="find_two"></div>
+        <div class="tab_content">
+            <div id="card" class="tab">
+                <div id="card_background"><img src="/images/DichVu/card.png" alt="card"></div>
+                <div id="card_front">
+                    <div id="card_logo"><img src="/images/icon/icon.png" alt="icon"> Odyssey Bank</div>
+                    <div id="card_type">Credit Card</div>
+                    <div id="card_chip"><img src="/images/icon/chip_white.png" alt="chip_white"></div>
+                    <div id="card_number">0123 4567 8901 2345</div>
+                    <div id="card_cardholder">JOHN DOE</div>
+                    <div id="card_date">From: 06/23 <br>To: 06/28</div>
+                </div>
+                <div id="card_back">
+                    <div id="card_top"></div>
+                    <div id="card_information">Thẻ thanh toán cho phép chủ thẻ vay tiền từ ngân hàng để mua hàng hoặc
+                        thanh toán dịch vụ.</div>
+                    <div id="card_password">000</div>
+                    <div id="card_bottom"></div>
+                </div>
+                <div id="card_input">
+                    <div id="card_title">Tạo Thẻ Tín Dụng</div>
+                    <div id="card_types">
+                        <div class="card_catagory">Loại Thẻ</div>
+                        <div class="card_input">
+                            <select name="card_type" id="card_select" onchange="change_card_info()">
+                                <option value="Credit">Credit Card</option>
+                                <option value="Debit">Debit Card</option>
+                                <option value="Luxury">Luxury Card</option>
                             </select>
                         </div>
                     </div>
-                    <div id="acc_ethnic">
-                        <div class="acc_catagory">Dân Tộc</div>
-                        <div class="acc_input"><input type="text" name="acc_ethnic" id="acc_four" oninvalid="this.setCustomValidity('Nhập chữ cái với số lượng từ 1 đến 15')" pattern="[\p{L}\p{M}\s]{1,15}" required></div>
+                    <div id="card_info">
+                        Cho phép vay tiền từ ngân hàng để thanh toán dịch vụ.
+                        <br> Những khoản nợ sẽ được thanh toán vào cuối tháng.
                     </div>
-                    <div id="acc_dob">
-                        <div class="acc_catagory">Ngày Sinh</div>
-                        <div class="acc_input"><input type="date" name="acc_dob" id="acc_five" style="text-transform: none;" required></div>
+                    <div id="card_name">
+                        <div class="card_catagory">Họ và Tên</div>
+                        <div class="card_input"><input type="text" name="card_name" id="card_one"
+                                placeholder="JOHN DOE"></div>
                     </div>
-                    <div id="acc_pob">
-                        <div class="acc_catagory">Nơi Sinh</div>
-                        <div class="acc_input"><input type="text" name="acc_pob" id="acc_six" oninvalid="this.setCustomValidity('Nhập chữ cái hay chữ số với số lượng từ 1 đến 15')" pattern="[\p{L}\p{M}\p{N}\s]{1,15}" required></div>
+                    <div id="card_numbers">
+                        <div class="card_catagory">Mã Số Thẻ</div>
+                        <div class="card_input"><input type="text" name="card_numbers" id="card_two"
+                                placeholder="0123 4567 8901 2345"></div>
                     </div>
-                    <div id="acc_phone">
-                        <div class="acc_catagory">Số Điện Thoại</div>
-                        <div class="acc_input"><input type="tel" name="acc_phone" id="acc_seven" required></div>
+                    <div id="card_month">
+                        <div class="card_catagory">Tháng Tạo Thẻ</div>
+                        <div class="card_input"><input type="month" name="card_month" id="card_three"></div>
                     </div>
-                    <div id="acc_email">
-                        <div class="acc_catagory">Email</div>
-                        <div class="acc_input"><input type="email" name="acc_email" id="acc_eight" oninvalid="this.setCustomValidity('Nhập đúng định dạng của email')" style="text-transform: none;" required></div>
-                    </div>
-                    <div id="acc_image">
-                        <div class="acc_catagory">Hình Ảnh</div>
-                        <div class="acc_input"><input type="file" name="acc_image" id="acc_nine" accept="image/*" required></div>
-                    </div>
-                </div>
-                <div id="acc_legal_subtitle">Xác Minh Danh Tính</div>
-                <div id="acc_legal">
-                    <div id="acc_nid">
-                        <div class="acc_catagory">Căn Cước Công Dân</div>
-                        <div class="acc_input"><input type="number" name="acc_nid" id="acc_ten" required></div>
-                    </div>
-                    <div id="acc_nal">
-                        <div class="acc_catagory">Quốc Tịch</div>
-                        <div class="acc_input">
-                            <select name="acc_nal" id="acc_eleven">
-                                <option value="Australia">Australia</option>
-                                <option value="Bahamas">Bahamas</option>
-                                <option value="Canada">Canada</option>
-                                <option value="China">China</option>
-                                <option value="Denmark">Denmark</option>
-                                <option value="Egypt">Egypt</option>
-                                <option value="France">France</option>
-                                <option value="Germany">Germany</option>
-                                <option value="Hungary">Hungary</option>
-                                <option value="Iceland">Iceland</option>
-                                <option value="India">India</option>
-                                <option value="Italy">Italy</option>
-                                <option value="Japan">Japan</option>
-                                <option value="Malta">Malta</option>
-                                <option value="Mexico">Mexico</option>
-                                <option value="Morocco">Morocco</option>
-                                <option value="Peru">Peru</option>
-                                <option value="The Philippines">The Philippines</option>
-                                <option value="South Korea">South Korea</option>
-                                <option value="Spain">Spain</option>
-                                <option value="Sweden">Sweden</option>
-                                <option value="Thailand">Thailand</option>
-                                <option value="Turkey">Turkey</option>
-                                <option value="United Kingdom">United Kingdom</option>
-                                <option value="United States">United States</option>
-                                <option value="Viet Nam">Viet Nam</option>
-                                <option value="Zimbabwe">Zimbabwe</option>
-                            </select>
+                    <div id="card_color">
+                        <div class="card_catagory">Màu Thẻ</div>
+                        <div class="card_input"><input type="color" name="card_color" id="card_four" value="#05BFDB">
                         </div>
                     </div>
-                    <div id="acc_dor">
-                        <div class="acc_catagory">Ngày Cấp</div>
-                        <div class="acc_input"><input type="date" name="acc_dor" id="acc_twelve" style="text-transform: none;" required></div>
+                    <div id="card_pass">
+                        <div class="card_catagory">Mật Mã PIN</div>
+                        <div class="card_input"><input type="number" name="card_pass" id="card_five" placeholder="000">
+                        </div>
                     </div>
-                    <div id="acc_por">
-                        <div class="acc_catagory">Nơi Cấp</div>
-                        <div class="acc_input"><input type="text" name="acc_por" id="acc_thridteen" oninvalid="this.setCustomValidity('Nhập chữ cái hay chữ số với số lượng từ 1 đến 15')" pattern="[\p{L}\p{M}\p{N}\s]{1,15}" required></div>
-                    </div>
-                </div>
-                <div id="acc_bank_subtitle">Tài Khoản Ngân Hàng</div>
-                <div id="acc_bank">
-                    <div id="acc_id">
-                        <div class="acc_catagory">Tên Tài Khoản</div>
-                        <div class="acc_input"><input type="text" name="acc_id" id="acc_fourteen" oninvalid="this.setCustomValidity('Nhập với số lượng từ 1 đến 15')" pattern="[\p{L}\p{M}\p{N}\p{Pc}\s]{1,15}" style="text-transform: none;" required></div>
-                    </div>
-                    <div id="acc_pass">
-                        <div class="acc_catagory">Mật Khẩu</div>
-                        <div class="acc_input"><input type="password" name="acc_pass" id="acc_fifteen" oninvalid="this.setCustomValidity('Nhập với số lượng từ 1 đến 15')" pattern="[\p{L}\p{M}\p{N}\p{Pc}\s]{1,15}" style="text-transform: none;" required></div>
-                    </div>
-                    <div id="acc_holder">
-                        <div class="acc_catagory">Tên Người Dùng</div>
-                        <div class="acc_input"><input type="text" name="acc_holder" id="acc_sixteen" oninvalid="this.setCustomValidity('Nhập chữ cái với số lượng từ 1 đến 15')" pattern="[\p{L}\p{M}\s]{1,15}" required></div>
-                    </div>
-                    <div id="acc_accept">
-                        <div id="acc_accept_one"><input type="checkbox" name="acc_accept" id="acc_seventeen" required>Đồng ý với&nbsp;<a href="">điều khoản</a></div>
-                        <div id="acc_accept_two"><input type="checkbox" name="acc_accept" id="acc_eighteen">Nhận thông tin qua email</div>
+                    <div id="card_submit">
+                        <div class="card_catagory">Tạo Thẻ</div>
+                        <div class="card_input"><input type="button" onclick="create_card()" value="Tạo Thẻ"></div>
                     </div>
                 </div>
-                <div id="acc_action">
-                    <div id="acc_submit">
-                        <input type="submit" value="Đăng Ký">
-                    </div>
-                    <div id="acc_reset">
-                        <input type="reset" value="Làm Lại">
-                    </div>
+                <div id="card_box">Lấy<br>Thẻ<br>Tại<br>Ngân<br>Hàng</div>
+            </div>
+            <div class="sty tab">
+                <div class="sty_background"><img src="/images/DichVu/withdrawal.png" alt="widthdrawl"></div>
+                <div class="sty_title">Hướng Dẫn Rút Tiền</div>
+                <div class="sty_one">
+                    <div class="sty_image"><img src="/images/DichVu/atm_one.png" alt="atm_one"></div>
+                    <div class="sty_step">1. Tìm ATM gần nhất đối với bạn</div>
                 </div>
-                <div id="acc_fin">Đăng Ký Thành Công</div>
-            </form>
-        </div>
-        <div id="exc" class="tab">
-            <div id="exc_background"><img src="/images/DichVu/exchange.png" alt="exchange"></div>
-            <div id="exc_dollar" class="exc_style">
-                <div class="exc_logo"><img src="/images/icon/dollar.png" alt="dollar"></div>
-                <div class="exc_input"><input type="text" name="exc_dollar" id="exc_one" onkeyup="calculate_exchange(0)" onfocus="this.value=''" value="0"></div>
-                <div class="exc_text">Dollar<br>Sử Dụng Rộng Rãi Khắp Thế Giới</div>
+                <div class="sty_two">
+                    <div class="sty_image"><img src="/images/DichVu/atm_two.png" alt="atm_two"></div>
+                    <div class="sty_step">2. Đưa thẻ vào ATM và nhập mã PIN</div>
+                </div>
+                <div class="sty_three">
+                    <div class="sty_image"><img src="/images/DichVu/atm_three.png" alt="atm_three"></div>
+                    <div class="sty_step">3. Nhập số tiền bạn cần rút và lấy tiền</div>
+                </div>
+                <div class="sty_box">Rút Tiền Tại ATM</div>
             </div>
-            <div id="exc_euro" class="exc_style">
-                <div class="exc_logo"><img src="/images/icon/euro.png" alt="euro"></div>
-                <div class="exc_input"><input type="text" name="exc_euro" id="exc_two" onkeyup="calculate_exchange(1)" onfocus="this.value=''" value="0"></div>
-                <div class="exc_text">Euro<br>Sử Dụng Phổ Biến tại Châu Âu</div>
-            </div>
-            <div id="exc_dong" class="exc_style">
-                <div class="exc_logo"><img src="/images/icon/dong.png" alt="dong"></div>
-                <div class="exc_input"><input type="text" name="exc_dong" id="exc_three" onkeyup="calculate_exchange(2)" onfocus="this.value=''" value="0"></div>
-                <div class="exc_text">Dong<br>Đa Số Sử Dụng tại Việt Nam</div>
-            </div>
-            <div id="exc_pound" class="exc_style">
-                <div class="exc_logo"><img src="/images/icon/pound.png" alt="pound"></div>
-                <div class="exc_input"><input type="text" name="exc_pound" id="exc_four" onkeyup="calculate_exchange(3)" onfocus="this.value=''" value="0"></div>
-                <div class="exc_text">Pound<br>Rộng Rãi và Phổ Biến tại Nước Anh</div>
-            </div>
-            <div id="exc_won" class="exc_style">
-                <div class="exc_logo"><img src="/images/icon/won.png" alt="won"></div>
-                <div class="exc_input"><input type="text" name="exc_won" id="exc_five" onkeyup="calculate_exchange(4)" onfocus="this.value=''" value="0"></div>
-                <div class="exc_text">Won<br>Đa Số Sử Dụng tại Hàn Quốc</div>
-            </div>
-            <div id="exc_yen" class="exc_style">
-                <div class="exc_logo"><img src="/images/icon/yen.png" alt="yen"></div>
-                <div class="exc_input"><input type="text" name="exc_yen" id="exc_six" onkeyup="calculate_exchange(5)" onfocus="this.value=''" value="0"></div>
-                <div class="exc_text">Yen<br>Phổ Biến Sử Dụng tại Nhật Bản</div>
-            </div>
-            <div id="exc_lira" class="exc_style">
-                <div class="exc_logo"><img src="/images/icon/lira.png" alt="lira"></div>
-                <div class="exc_input"><input type="text" name="exc_lira" id="exc_seven" onkeyup="calculate_exchange(6)" onfocus="this.value=''" value="0"></div>
-                <div class="exc_text">Lira<br>Đa Số Sử Dụng tại Thổ Nhĩ Kỳ</div>
+            <div class="sty tab">
+                <div class="sty_background"><img src="/images/DichVu/deposit.png" alt="deposit"></div>
+                <div class="sty_title">Hướng Dẫn Giử Tiền</div>
+                <div class="sty_one">
+                    <div class="sty_image"><img src="/images/DichVu/atm_one.png" alt="atm_one"></div>
+                    <div class="sty_step">1. Tìm ATM gần nhất đối với bạn</div>
+                </div>
+                <div class="sty_two">
+                    <div class="sty_image"><img src="/images/DichVu/atm_two.png" alt="atm_two"></div>
+                    <div class="sty_step">2. Đưa thẻ vào ATM và nhập mã PIN</div>
+                </div>
+                <div class="sty_three">
+                    <div class="sty_image"><img src="/images/DichVu/atm_four.png" alt="atm_four"></div>
+                    <div class="sty_step">3. Bỏ tiền vào máy và chờ xác nhận</div>
+                </div>
+                <div class="sty_box">Gửi Tiền Tại ATM</div>
             </div>
         </div>
-        <div class="art tab">
-            <div class="art_background"><img src="/images/DichVu/money.png" alt="money"></div>
-            <div class="art_content art_one">
-                <div class="art_divide_one"></div>
-                <div class="art_divide_two"></div>
-                <div class="art_gold">
-                    <div class="art_line"></div>
-                    <div class="art_line"></div>
-                    <div class="art_line"></div>
+        <div class="break"></div>
+        <div class="display">
+            <div class="display_one">
+                <div class="item" onclick="appear_tab(3)" onmouseover="hover_item(3)" onmouseout="stop_item(3)">
+                    <div class="item_picture"><img src="/images/DichVu/account.png" alt="acount"></div>
+                    <div class="item_title">Tài Khoản Số</div>
+                    <div class="item_box">Chìa khóa tài chính</div>
                 </div>
-                <div class="art_image"><img src="/images/DichVu/handshake.png" alt="handshake" style="object-position: 80% 80%;"></div>
-                <div class="art_mini"><img src="/images/DichVu/atm_one.png" alt="atm_one" style="object-position: 30% 100%;"></div>
-                <div class="art_box">Đối Tác Kinh Doanh - Lãi Suất Quá Hời</div>
             </div>
-            <div class="art_content art_two">
-                <div class="art_divide_one"></div>
-                <div class="art_divide_two"></div>
-                <div class="art_gold">
-                    <div class="art_line"></div>
-                    <div class="art_line"></div>
-                    <div class="art_line"></div>
+            <div class="display_two">
+                <div class="item" onclick="appear_tab(4)" onmouseover="hover_item(4)" onmouseout="stop_item(4)">
+                    <div class="item_picture"><img src="/images/DichVu/exchange.png" alt="exchange"></div>
+                    <div class="item_title">Đổi Ngoại Tệ</div>
+                    <div class="item_box">Kết nối thế giới, giao dịch mọi nguồn lực</div>
                 </div>
-                <div class="art_image"><img src="/images/DichVu/plane.png" alt="plane" style="object-position: 20% 100%;"></div>
-                <div class="art_mini"><img src="/images/DichVu/destination.png" alt="destination" style="object-position: 30% 100%;"></div>
-                <div class="art_box">Ly Do Du Lịch - Lãi Suất 0%</div>
             </div>
-            <div class="art_box">Vay Mượn Ngân Hàng</div>
+            <div class="display_three">
+                <div class="item" onclick="appear_tab(5)" onmouseover="hover_item(5)" onmouseout="stop_item(5)">
+                    <div class="item_picture"><img src="/images/DichVu/money.png" alt="money"></div>
+                    <div class="item_title">Vay Mượn</div>
+                    <div class="item_box">Tiếp sức sự thành công của bạn</div>
+                </div>
+            </div>
+        </div>
+        <div class="break"></div>
+        <div class="find" id="find_three"></div>
+        <div class="tab_content">
+            <div id="acc" class="tab">
+                <div id="acc_background"><img src="/images/DichVu/account.png" alt="account"></div>
+                <form name="acc_form" id="acc_form" onsubmit="return submit_form()" onreset="reset_form()">
+                    <div id="acc_title">Đăng Ký Tài Khoản Số</div>
+                    <div id="acc_basic_subtitle">Thông Tin Cá Nhân</div>
+                    <div id="acc_basic">
+                        <div id="acc_name">
+                            <div class="acc_catagory">Tên</div>
+                            <div class="acc_input"><input type="text" name="acc_name" id="acc_one"
+                                    oninvalid="this.setCustomValidity('Nhập chữ cái với số lượng từ 1 đến 15')"
+                                    pattern="[\p{L}\p{M}\s]{1,15}" required></div>
+                        </div>
+                        <div id="acc_surname">
+                            <div class="acc_catagory">Họ</div>
+                            <div class="acc_input"><input type="text" name="acc_surname" id="acc_two"
+                                    oninvalid="this.setCustomValidity('Nhập chữ cái với số lượng từ 1 đến 15')"
+                                    pattern="[\p{L}\p{M}\s]{1,15}" required></div>
+                        </div>
+                        <div id="acc_gender">
+                            <div class="acc_catagory">Giới Tính</div>
+                            <div class="acc_input">
+                                <select name="acc_gender" id="acc_three">
+                                    <option value="Nam">Nam</option>
+                                    <option value="Nữ">Nữ</option>
+                                    <option value="Không Rõ">Không Rõ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id="acc_ethnic">
+                            <div class="acc_catagory">Dân Tộc</div>
+                            <div class="acc_input"><input type="text" name="acc_ethnic" id="acc_four"
+                                    oninvalid="this.setCustomValidity('Nhập chữ cái với số lượng từ 1 đến 15')"
+                                    pattern="[\p{L}\p{M}\s]{1,15}" required></div>
+                        </div>
+                        <div id="acc_dob">
+                            <div class="acc_catagory">Ngày Sinh</div>
+                            <div class="acc_input"><input type="date" name="acc_dob" id="acc_five"
+                                    style="text-transform: none;" required></div>
+                        </div>
+                        <div id="acc_pob">
+                            <div class="acc_catagory">Nơi Sinh</div>
+                            <div class="acc_input"><input type="text" name="acc_pob" id="acc_six"
+                                    oninvalid="this.setCustomValidity('Nhập chữ cái hay chữ số với số lượng từ 1 đến 15')"
+                                    pattern="[\p{L}\p{M}\p{N}\s]{1,15}" required></div>
+                        </div>
+                        <div id="acc_phone">
+                            <div class="acc_catagory">Số Điện Thoại</div>
+                            <div class="acc_input"><input type="tel" name="acc_phone" id="acc_seven" required></div>
+                        </div>
+                        <div id="acc_email">
+                            <div class="acc_catagory">Email</div>
+                            <div class="acc_input"><input type="email" name="acc_email" id="acc_eight"
+                                    oninvalid="this.setCustomValidity('Nhập đúng định dạng của email')"
+                                    style="text-transform: none;" required></div>
+                        </div>
+                        <div id="acc_image">
+                            <div class="acc_catagory">Hình Ảnh</div>
+                            <div class="acc_input"><input type="file" name="acc_image" id="acc_nine" accept="image/*"
+                                    required></div>
+                        </div>
+                    </div>
+                    <div id="acc_legal_subtitle">Xác Minh Danh Tính</div>
+                    <div id="acc_legal">
+                        <div id="acc_nid">
+                            <div class="acc_catagory">Căn Cước Công Dân</div>
+                            <div class="acc_input"><input type="number" name="acc_nid" id="acc_ten" required></div>
+                        </div>
+                        <div id="acc_nal">
+                            <div class="acc_catagory">Quốc Tịch</div>
+                            <div class="acc_input">
+                                <select name="acc_nal" id="acc_eleven">
+                                    <option value="Australia">Australia</option>
+                                    <option value="Bahamas">Bahamas</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="China">China</option>
+                                    <option value="Denmark">Denmark</option>
+                                    <option value="Egypt">Egypt</option>
+                                    <option value="France">France</option>
+                                    <option value="Germany">Germany</option>
+                                    <option value="Hungary">Hungary</option>
+                                    <option value="Iceland">Iceland</option>
+                                    <option value="India">India</option>
+                                    <option value="Italy">Italy</option>
+                                    <option value="Japan">Japan</option>
+                                    <option value="Malta">Malta</option>
+                                    <option value="Mexico">Mexico</option>
+                                    <option value="Morocco">Morocco</option>
+                                    <option value="Peru">Peru</option>
+                                    <option value="The Philippines">The Philippines</option>
+                                    <option value="South Korea">South Korea</option>
+                                    <option value="Spain">Spain</option>
+                                    <option value="Sweden">Sweden</option>
+                                    <option value="Thailand">Thailand</option>
+                                    <option value="Turkey">Turkey</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="United States">United States</option>
+                                    <option value="Viet Nam">Viet Nam</option>
+                                    <option value="Zimbabwe">Zimbabwe</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id="acc_dor">
+                            <div class="acc_catagory">Ngày Cấp</div>
+                            <div class="acc_input"><input type="date" name="acc_dor" id="acc_twelve"
+                                    style="text-transform: none;" required></div>
+                        </div>
+                        <div id="acc_por">
+                            <div class="acc_catagory">Nơi Cấp</div>
+                            <div class="acc_input"><input type="text" name="acc_por" id="acc_thridteen"
+                                    oninvalid="this.setCustomValidity('Nhập chữ cái hay chữ số với số lượng từ 1 đến 15')"
+                                    pattern="[\p{L}\p{M}\p{N}\s]{1,15}" required></div>
+                        </div>
+                    </div>
+                    <div id="acc_bank_subtitle">Tài Khoản Ngân Hàng</div>
+                    <div id="acc_bank">
+                        <div id="acc_id">
+                            <div class="acc_catagory">Tên Tài Khoản</div>
+                            <div class="acc_input"><input type="text" name="acc_id" id="acc_fourteen"
+                                    oninvalid="this.setCustomValidity('Nhập với số lượng từ 1 đến 15')"
+                                    pattern="[\p{L}\p{M}\p{N}\p{Pc}\s]{1,15}" style="text-transform: none;" required>
+                            </div>
+                        </div>
+                        <div id="acc_pass">
+                            <div class="acc_catagory">Mật Khẩu</div>
+                            <div class="acc_input"><input type="password" name="acc_pass" id="acc_fifteen"
+                                    oninvalid="this.setCustomValidity('Nhập với số lượng từ 1 đến 15')"
+                                    pattern="[\p{L}\p{M}\p{N}\p{Pc}\s]{1,15}" style="text-transform: none;" required>
+                            </div>
+                        </div>
+                        <div id="acc_holder">
+                            <div class="acc_catagory">Tên Người Dùng</div>
+                            <div class="acc_input"><input type="text" name="acc_holder" id="acc_sixteen"
+                                    oninvalid="this.setCustomValidity('Nhập chữ cái với số lượng từ 1 đến 15')"
+                                    pattern="[\p{L}\p{M}\s]{1,15}" required></div>
+                        </div>
+                        <div id="acc_accept">
+                            <div id="acc_accept_one"><input type="checkbox" name="acc_accept" id="acc_seventeen"
+                                    required>Đồng ý với&nbsp;<a href="">điều khoản</a></div>
+                            <div id="acc_accept_two"><input type="checkbox" name="acc_accept" id="acc_eighteen">Nhận
+                                thông tin qua email</div>
+                        </div>
+                    </div>
+                    <div id="acc_action">
+                        <div id="acc_submit">
+                            <input type="submit" value="Đăng Ký">
+                        </div>
+                        <div id="acc_reset">
+                            <input type="reset" value="Làm Lại">
+                        </div>
+                    </div>
+                    <div id="acc_fin">Đăng Ký Thành Công</div>
+                </form>
+            </div>
+            <div id="exc" class="tab">
+                <div id="exc_background"><img src="/images/DichVu/exchange.png" alt="exchange"></div>
+                <div id="exc_dollar" class="exc_style">
+                    <div class="exc_logo"><img src="/images/icon/dollar.png" alt="dollar"></div>
+                    <div class="exc_input"><input type="text" name="exc_dollar" id="exc_one"
+                            onkeyup="calculate_exchange(0)" onfocus="this.value=''" value="0"></div>
+                    <div class="exc_text">Dollar<br>Sử Dụng Rộng Rãi Khắp Thế Giới</div>
+                </div>
+                <div id="exc_euro" class="exc_style">
+                    <div class="exc_logo"><img src="/images/icon/euro.png" alt="euro"></div>
+                    <div class="exc_input"><input type="text" name="exc_euro" id="exc_two"
+                            onkeyup="calculate_exchange(1)" onfocus="this.value=''" value="0"></div>
+                    <div class="exc_text">Euro<br>Sử Dụng Phổ Biến tại Châu Âu</div>
+                </div>
+                <div id="exc_dong" class="exc_style">
+                    <div class="exc_logo"><img src="/images/icon/dong.png" alt="dong"></div>
+                    <div class="exc_input"><input type="text" name="exc_dong" id="exc_three"
+                            onkeyup="calculate_exchange(2)" onfocus="this.value=''" value="0"></div>
+                    <div class="exc_text">Dong<br>Đa Số Sử Dụng tại Việt Nam</div>
+                </div>
+                <div id="exc_pound" class="exc_style">
+                    <div class="exc_logo"><img src="/images/icon/pound.png" alt="pound"></div>
+                    <div class="exc_input"><input type="text" name="exc_pound" id="exc_four"
+                            onkeyup="calculate_exchange(3)" onfocus="this.value=''" value="0"></div>
+                    <div class="exc_text">Pound<br>Rộng Rãi và Phổ Biến tại Nước Anh</div>
+                </div>
+                <div id="exc_won" class="exc_style">
+                    <div class="exc_logo"><img src="/images/icon/won.png" alt="won"></div>
+                    <div class="exc_input"><input type="text" name="exc_won" id="exc_five"
+                            onkeyup="calculate_exchange(4)" onfocus="this.value=''" value="0"></div>
+                    <div class="exc_text">Won<br>Đa Số Sử Dụng tại Hàn Quốc</div>
+                </div>
+                <div id="exc_yen" class="exc_style">
+                    <div class="exc_logo"><img src="/images/icon/yen.png" alt="yen"></div>
+                    <div class="exc_input"><input type="text" name="exc_yen" id="exc_six"
+                            onkeyup="calculate_exchange(5)" onfocus="this.value=''" value="0"></div>
+                    <div class="exc_text">Yen<br>Phổ Biến Sử Dụng tại Nhật Bản</div>
+                </div>
+                <div id="exc_lira" class="exc_style">
+                    <div class="exc_logo"><img src="/images/icon/lira.png" alt="lira"></div>
+                    <div class="exc_input"><input type="text" name="exc_lira" id="exc_seven"
+                            onkeyup="calculate_exchange(6)" onfocus="this.value=''" value="0"></div>
+                    <div class="exc_text">Lira<br>Đa Số Sử Dụng tại Thổ Nhĩ Kỳ</div>
+                </div>
+            </div>
+            <div class="art tab">
+                <div class="art_background"><img src="/images/DichVu/money.png" alt="money"></div>
+                <div class="art_content art_one">
+                    <div class="art_divide_one"></div>
+                    <div class="art_divide_two"></div>
+                    <div class="art_gold">
+                        <div class="art_line"></div>
+                        <div class="art_line"></div>
+                        <div class="art_line"></div>
+                    </div>
+                    <div class="art_image"><img src="/images/DichVu/handshake.png" alt="handshake"
+                            style="object-position: 80% 80%;"></div>
+                    <div class="art_mini"><img src="/images/DichVu/atm_one.png" alt="atm_one"
+                            style="object-position: 30% 100%;"></div>
+                    <div class="art_box">Đối Tác Kinh Doanh - Lãi Suất Quá Hời</div>
+                </div>
+                <div class="art_content art_two">
+                    <div class="art_divide_one"></div>
+                    <div class="art_divide_two"></div>
+                    <div class="art_gold">
+                        <div class="art_line"></div>
+                        <div class="art_line"></div>
+                        <div class="art_line"></div>
+                    </div>
+                    <div class="art_image"><img src="/images/DichVu/plane.png" alt="plane"
+                            style="object-position: 20% 100%;"></div>
+                    <div class="art_mini"><img src="/images/DichVu/destination.png" alt="destination"
+                            style="object-position: 30% 100%;"></div>
+                    <div class="art_box">Ly Do Du Lịch - Lãi Suất 0%</div>
+                </div>
+                <div class="art_box">Vay Mượn Ngân Hàng</div>
+            </div>
+        </div>
+        <div class="break"></div>
+        <div class="display">
+            <div class="display_one">
+                <div class="item" onclick="appear_tab(6)" onmouseover="hover_item(6)" onmouseout="stop_item(6)">
+                    <div class="item_picture"><img src="/images/DichVu/saving.png" alt="saving"></div>
+                    <div class="item_title">Tiết Kiệm</div>
+                    <div class="item_box">Xây dựng tương lai vững chắc</div>
+                </div>
+            </div>
+            <div class="display_two">
+                <div class="item" onclick="appear_tab(7)" onmouseover="hover_item(7)" onmouseout="stop_item(7)">
+                    <div class="item_picture"><img src="/images/DichVu/membership.png" alt="membership"></div>
+                    <div class="item_title">Thành Viên</div>
+                    <div class="item_box">Cùng nhau hướng tới thành công</div>
+                </div>
+            </div>
+            <div class="display_three">
+                <div class="item" onclick="appear_tab(8)" onmouseover="hover_item(8)" onmouseout="stop_item(8)">
+                    <div class="item_picture"><img src="/images/DichVu/travel.png" alt="travel"></div>
+                    <div class="item_title">Du Hành</div>
+                    <div class="item_box">Khám phá vô tận, trải nghiệm đích thực</div>
+                </div>
+            </div>
+        </div>
+        <div class="break"></div>
+        <div class="find" id="find_four"></div>
+        <div class="tab_content">
+            <div class="art tab">
+                <div class="art_background"><img src="/images/DichVu/saving.png" alt="saving"></div>
+                <div class="art_content art_one">
+                    <div class="art_divide_one"></div>
+                    <div class="art_divide_two"></div>
+                    <div class="art_gold">
+                        <div class="art_line"></div>
+                        <div class="art_line"></div>
+                        <div class="art_line"></div>
+                    </div>
+                    <div class="art_image"><img src="/images/DichVu/handshake.png" alt="handshake"
+                            style="object-position: 80% 80%;"></div>
+                    <div class="art_mini"><img src="/images/DichVu/atm_one.png" alt="atm_one"
+                            style="object-position: 30% 100%;"></div>
+                    <div class="art_box">Đối Tác Kinh Doanh - Tiết Kiệm Tối Đa</div>
+                </div>
+                <div class="art_content art_two">
+                    <div class="art_divide_one"></div>
+                    <div class="art_divide_two"></div>
+                    <div class="art_gold">
+                        <div class="art_line"></div>
+                        <div class="art_line"></div>
+                        <div class="art_line"></div>
+                    </div>
+                    <div class="art_image"><img src="/images/DichVu/plane.png" alt="plane"
+                            style="object-position: 20% 100%;"></div>
+                    <div class="art_mini"><img src="/images/DichVu/destination.png" alt="destination"
+                            style="object-position: 30% 100%;"></div>
+                    <div class="art_box">Hay Đi Du Lịch - Tiết Kiệm Thõa Ga</div>
+                </div>
+                <div class="art_box">Tiết Kiệm Ngân Hàng</div>
+            </div>
+            <div id="mem" class="tab">
+                <div id="mem_background"><img src="/images/DichVu/membership.png" alt="membership"></div>
+                <div id="mem_one" class="mem_mem">
+                    <div class="mem_header">TOURIST</div>
+                    <div class="mem_price">0.00đ</div>
+                    <div class="mem_content">
+                        <div class="mem_service">Tài Khoản Số</div>
+                    </div>
+                    <div class="mem_footer" onclick="appear_tab(3)">Đăng Ký Ngay</div>
+                </div>
+                <div id="mem_two" class="mem_mem">
+                    <div class="mem_header">TRAVELER</div>
+                    <div class="mem_price">100.00đ</div>
+                    <div class="mem_content">
+                        <div class="mem_service">Tài Khoản Số</div>
+                        <div class="mem_service">Thẻ Tín Dụng</div>
+                    </div>
+                    <div class="mem_footer">Đăng Ký Ngay</div>
+                </div>
+                <div id="mem_three" class="mem_mem">
+                    <div class="mem_header">ADVENTURER</div>
+                    <div id="mem_out">Hết Hàng</div>
+                    <div class="mem_price">200.00đ</div>
+                    <div class="mem_content">
+                        <div class="mem_service">Tài Khoản Số</div>
+                        <div class="mem_service">Thẻ Tín Dụng</div>
+                        <div class="mem_service">Vay Mượn Không Giới Hạn</div>
+                    </div>
+                    <div class="mem_footer"></div>
+                </div>
+                <div id="mem_four" class="mem_mem">
+                    <div class="mem_header">PATHFINDER</div>
+                    <div class="mem_price">500.000đ</div>
+                    <div class="mem_content">
+                        <div class="mem_service">Tài Khoản Số</div>
+                        <div class="mem_service">Thẻ Tín Dụng</div>
+                        <div class="mem_service">Vay Mượn Không Giới Hạn</div>
+                        <div class="mem_service">Du Hành Thả Ga</div>
+                    </div>
+                    <div class="mem_footer" onclick="window.location.href=''">Đăng Ký Ngay</div>
+                </div>
+                <div id="mem_special" class="mem_mem">
+                    <div class="mem_header">NAGIVATOR</div>
+                    <div id="mem_out">Hết Hàng</div>
+                    <div class="mem_price">Tích Lũy Điểm</div>
+                    <div class="mem_content">
+                        <div class="mem_service">Không Giới Hạn</div>
+                    </div>
+                    <div class="mem_footer"></div>
+                </div>
+            </div>
+            <div class="sty tab">
+                <div class="sty_background"><img src="/images/DichVu/travel.png" alt="travel"></div>
+                <div class="sty_title">Dịch Vụ Du Hành</div>
+                <div class="sty_one">
+                    <div class="sty_image"><img src="/images/DichVu/plane.png" alt="plane"></div>
+                    <div class="sty_step">Nhanh chóng đặt vé máy bay</div>
+                </div>
+                <div class="sty_two">
+                    <div class="sty_image"><img src="/images/DichVu/event.png" alt="event"></div>
+                    <div class="sty_step">Khám phá nhiều điều kỳ thú</div>
+                </div>
+                <div class="sty_three">
+                    <div class="sty_image"><img src="/images/DichVu/sightseeing.png" alt="sightseeing"></div>
+                    <div class="sty_step">Kết nối thuận tiện - Đi lại dễ dàng</div>
+                </div>
+                <div class="sty_box" onclick="window.location.href='/html/destination.html'" style="cursor: pointer;">
+                    Đến Trang Du Hành</div>
+            </div>
+        </div>
+        <div class="break"></div>
+        <div class="essay">
+            <div class="essay_picture"><img src="/images/DichVu/support.png" alt="support"></div>
+            <div class="essay_title">Hỗ Trợ</div>
+            <div class="essay_text">Ngân hàng của chúng tôi cam kết đặt sự hỗ trợ và quan tâm tới khách hàng lên hàng
+                đầu. Chúng tôi hiểu rằng mỗi khách hàng đều có những nhu cầu và mục tiêu tài chính riêng, và chính vì
+                vậy chúng tôi tạo ra những giải pháp linh hoạt và phù hợp nhằm đáp ứng mọi yêu cầu.</div>
+            <!-- <div class="essay_box">Liên Hệ Ngay</div> -->
+            <button class="essay_box">Liên Hệ Ngay</button>
+        </div>
+        <div class="break"></div>
+    </div>
+    <div class="footer container-fluid">
+        <div class="row">
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading text-center">LIÊN HỆ</h3>
+                        <a>1900 54 54 13</a><br>
+                        <a href="./html/CoCheToGiac.html">Cơ chế tố giác</a><br>
+                        <a href="./html/KhachHangCaNhan/Email.html">Email liên hệ</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading text-center">MEMBERSHIP</h3>
+                        <a href="./html/KhachHangCaNhan/KhachHangCaNhan.html">Khách hàng cá nhân</a><br>
+                        <a href="./html/KhachHangUuTien/KhachHangUuTien.html">Khách hàng ưu tiên</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading text-center">CÔNG CỤ & TIỆN ÍCH</h3>
+                        <a href="./html/CongCuTienIch/TyGia.html">Tỷ giá</a><br>
+                        <a href="./html/CongCuTienIch/LaiSuat.html">Lãi suất</a><br>
+                        <a href="./html/CongCuTienIch/BieuPhi/BieuPhi.html">Biểu phí</a><br>
+                        <a href="./html/CongCuTienIch/BieuMau/BieuMau.html">Biểu mẫu</a><br>
+                        <a href="./html/CongCuTienIch/TraCuuSoTietKiem.html">Tra cứu sổ tiết kiệm</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="rol-sm-3">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="media-heading"></h3>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a><br>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></i></a><br>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="break"></div>
-    <div class="display">
-        <div class="display_one">
-            <div class="item" onclick="appear_tab(6)" onmouseover="hover_item(6)" onmouseout="stop_item(6)">
-                <div class="item_picture"><img src="/images/DichVu/saving.png" alt="saving"></div>
-                <div class="item_title">Tiết Kiệm</div>
-                <div class="item_box">Xây dựng tương lai vững chắc</div>
-            </div>
-        </div>
-        <div class="display_two">
-            <div class="item" onclick="appear_tab(7)" onmouseover="hover_item(7)" onmouseout="stop_item(7)">
-                <div class="item_picture"><img src="/images/DichVu/membership.png" alt="membership"></div>
-                <div class="item_title">Thành Viên</div>
-                <div class="item_box">Cùng nhau hướng tới thành công</div>
-            </div>
-        </div>
-        <div class="display_three">
-            <div class="item" onclick="appear_tab(8)" onmouseover="hover_item(8)" onmouseout="stop_item(8)">
-                <div class="item_picture"><img src="/images/DichVu/travel.png" alt="travel"></div>
-                <div class="item_title">Du Hành</div>
-                <div class="item_box">Khám phá vô tận, trải nghiệm đích thực</div>
-            </div>
-        </div>
-    </div>
-    <div class="break"></div>
-    <div class="find" id="find_four"></div>
-    <div class="tab_content">
-        <div class="art tab">
-            <div class="art_background"><img src="/images/DichVu/saving.png" alt="saving"></div>
-            <div class="art_content art_one">
-                <div class="art_divide_one"></div>
-                <div class="art_divide_two"></div>
-                <div class="art_gold">
-                    <div class="art_line"></div>
-                    <div class="art_line"></div>
-                    <div class="art_line"></div>
-                </div>
-                <div class="art_image"><img src="/images/DichVu/handshake.png" alt="handshake" style="object-position: 80% 80%;"></div>
-                <div class="art_mini"><img src="/images/DichVu/atm_one.png" alt="atm_one" style="object-position: 30% 100%;"></div>
-                <div class="art_box">Đối Tác Kinh Doanh - Tiết Kiệm Tối Đa</div>
-            </div>
-            <div class="art_content art_two">
-                <div class="art_divide_one"></div>
-                <div class="art_divide_two"></div>
-                <div class="art_gold">
-                    <div class="art_line"></div>
-                    <div class="art_line"></div>
-                    <div class="art_line"></div>
-                </div>
-                <div class="art_image"><img src="/images/DichVu/plane.png" alt="plane" style="object-position: 20% 100%;"></div>
-                <div class="art_mini"><img src="/images/DichVu/destination.png" alt="destination" style="object-position: 30% 100%;"></div>
-                <div class="art_box">Hay Đi Du Lịch - Tiết Kiệm Thõa Ga</div>
-            </div>
-            <div class="art_box">Tiết Kiệm Ngân Hàng</div>
-        </div>
-        <div id="mem" class="tab">
-            <div id="mem_background"><img src="/images/DichVu/membership.png" alt="membership"></div>
-            <div id="mem_one" class="mem_mem">
-                <div class="mem_header">TOURIST</div>
-                <div class="mem_price">0.00đ</div>
-                <div class="mem_content">
-                    <div class="mem_service">Tài Khoản Số</div>
-                </div>
-                <div class="mem_footer" onclick="appear_tab(3)">Đăng Ký Ngay</div>
-            </div>
-            <div id="mem_two" class="mem_mem">
-                <div class="mem_header">TRAVELER</div>
-                <div class="mem_price">100.00đ</div>
-                <div class="mem_content">
-                    <div class="mem_service">Tài Khoản Số</div>
-                    <div class="mem_service">Thẻ Tín Dụng</div>
-                </div>
-                <div class="mem_footer">Đăng Ký Ngay</div>
-            </div>
-            <div id="mem_three" class="mem_mem">
-                <div class="mem_header">ADVENTURER</div>
-                <div id="mem_out">Hết Hàng</div>
-                <div class="mem_price">200.00đ</div>
-                <div class="mem_content">
-                    <div class="mem_service">Tài Khoản Số</div>
-                    <div class="mem_service">Thẻ Tín Dụng</div>
-                    <div class="mem_service">Vay Mượn Không Giới Hạn</div>
-                </div>
-                <div class="mem_footer"></div>
-            </div>
-            <div id="mem_four" class="mem_mem">
-                <div class="mem_header">PATHFINDER</div>
-                <div class="mem_price">500.000đ</div>
-                <div class="mem_content">
-                    <div class="mem_service">Tài Khoản Số</div>
-                    <div class="mem_service">Thẻ Tín Dụng</div>
-                    <div class="mem_service">Vay Mượn Không Giới Hạn</div>
-                    <div class="mem_service">Du Hành Thả Ga</div>
-                </div>
-                <div class="mem_footer" onclick="window.location.href=''">Đăng Ký Ngay</div>
-            </div>
-            <div id="mem_special" class="mem_mem">
-                <div class="mem_header">NAGIVATOR</div>
-                <div id="mem_out">Hết Hàng</div>
-                <div class="mem_price">Tích Lũy Điểm</div>
-                <div class="mem_content"><div class="mem_service">Không Giới Hạn</div></div>
-                <div class="mem_footer"></div>
-            </div>
-        </div>
-        <div class="sty tab">
-            <div class="sty_background"><img src="/images/DichVu/travel.png" alt="travel"></div>
-            <div class="sty_title">Dịch Vụ Du Hành</div>
-            <div class="sty_one">
-                <div class="sty_image"><img src="/images/DichVu/plane.png" alt="plane"></div>
-                <div class="sty_step">Nhanh chóng đặt vé máy bay</div>
-            </div>
-            <div class="sty_two">
-                <div class="sty_image"><img src="/images/DichVu/event.png" alt="event"></div>
-                <div class="sty_step">Khám phá nhiều điều kỳ thú</div>
-            </div>
-            <div class="sty_three">
-                <div class="sty_image"><img src="/images/DichVu/sightseeing.png" alt="sightseeing"></div>
-                <div class="sty_step">Kết nối thuận tiện - Đi lại dễ dàng</div>
-            </div>
-            <div class="sty_box" onclick="window.location.href='/html/destination.html'" style="cursor: pointer;">Đến Trang Du Hành</div>
-        </div>
-    </div>
-    <div class="break"></div>
-    <div class="essay">
-        <div class="essay_picture"><img src="/images/DichVu/support.png" alt="support"></div>
-        <div class="essay_title">Hỗ Trợ</div>
-        <div class="essay_text">Ngân hàng của chúng tôi cam kết đặt sự hỗ trợ và quan tâm tới khách hàng lên hàng đầu. Chúng tôi hiểu rằng mỗi khách hàng đều có những nhu cầu và mục tiêu tài chính riêng, và chính vì vậy chúng tôi tạo ra những giải pháp linh hoạt và phù hợp nhằm đáp ứng mọi yêu cầu.</div>
-        <!-- <div class="essay_box">Liên Hệ Ngay</div> -->
-        <button class="essay_box">Liên Hệ Ngay</button>
-    </div>
-    <div class="break"></div>
-</div>
-<div class="footer container-fluid">
-    <div class="row">
-        <div class="rol-sm-3">
-            <div class="media">
-                <div class="media-body">
-                    <h3 class="media-heading text-center">LIÊN HỆ</h3>
-                    <a>1900 54 54 13</a><br>
-                    <a href="./html/CoCheToGiac.html">Cơ chế tố giác</a><br>
-                    <a href="./html/KhachHangCaNhan/Email.html">Email liên hệ</a><br>
-                </div>
-            </div>
-        </div>
-        <div class="rol-sm-3">
-            <div class="media">
-                <div class="media-body">
-                    <h3 class="media-heading text-center">MEMBERSHIP</h3>
-                    <a href="./html/KhachHangCaNhan/KhachHangCaNhan.html">Khách hàng cá nhân</a><br>
-                    <a href="./html/KhachHangUuTien/KhachHangUuTien.html">Khách hàng ưu tiên</a><br>
-                </div>
-            </div>
-        </div>
-        <div class="rol-sm-3">
-            <div class="media">
-                <div class="media-body">
-                    <h3 class="media-heading text-center">CÔNG CỤ & TIỆN ÍCH</h3>
-                    <a href="./html/CongCuTienIch/TyGia.html">Tỷ giá</a><br>
-                    <a href="./html/CongCuTienIch/LaiSuat.html">Lãi suất</a><br>
-                    <a href="./html/CongCuTienIch/BieuPhi/BieuPhi.html">Biểu phí</a><br>
-                    <a href="./html/CongCuTienIch/BieuMau/BieuMau.html">Biểu mẫu</a><br>
-                    <a href="./html/CongCuTienIch/TraCuuSoTietKiem.html">Tra cứu sổ tiết kiệm</a><br>
-                </div>
-            </div>
-        </div>
-        <div class="rol-sm-3">
-            <div class="media">
-                <div class="media-body">
-                    <h3 class="media-heading"></h3>
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a><br>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></i></a><br>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 </body>
+
 </html>
