@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
     showSP(CaNhan, "#content");
     // $("#timkiem").keyup(function(){
     //     var value = $(this).val().toLowerCase();
@@ -23,10 +23,10 @@ function showSP(data, id) {
     })
     $(id).html(s);
 
-    $(id + " .sp .chitiet").click(function() {
+    $(id + " .sp .chitiet").click(function () {
         let id = $(this).data("id");
         localStorage.setItem("masp", id);
-        switch(id){
+        switch (id) {
             case 1:
                 window.location = "./UuDai.html";
                 break;

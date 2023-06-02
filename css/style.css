@@ -7,12 +7,12 @@
 
 body {
     background-color: #526D82 !important;
-} 
+}
 
 .media .media-left img {
     width: 270px;
     height: auto;
-} 
+}
 
 .navbar-brand {
     text-transform: uppercase;
@@ -53,18 +53,25 @@ body {
     border-radius: 0;
 }
 
-.container .btn-group .btn{
+.container .btn-group .btn {
     background-color: none;
     border: 0;
     padding: 24px;
 }
 
-#section1, #section2, #section3, #section4 {
+#section1,
+#section2,
+#section3,
+#section4 {
     padding-top: 50px;
 }
 
-.content table, td, th,
-.panel-group .panel-collapse .panel-body ._2 table, td, th {
+.content table,
+td,
+th,
+.panel-group .panel-collapse .panel-body ._2 table,
+td,
+th {
     border: 1px solid black;
 }
 
@@ -142,12 +149,12 @@ body {
 
 }
 
-.navbar .container-fluid .collapse .nav .dropdown .dropdown-menu{
+.navbar .container-fluid .collapse .nav .dropdown .dropdown-menu {
     background-color: #27374D;
     font-size: 18px;
 }
 
-.navbar .container-fluid .collapse .nav .dropdown .dropdown-menu li a:hover{
+.navbar .container-fluid .collapse .nav .dropdown .dropdown-menu li a:hover {
     background-color: #9DB2BF;
 }
 
@@ -160,7 +167,7 @@ body {
     border: none;
 }
 
-.row .col-md-4 .thumbnail{
+.row .col-md-4 .thumbnail {
     background-color: #9DB2BF;
     padding: 0px;
     border: none;
@@ -181,13 +188,13 @@ body {
 }
 
 .footer .media-body a,
-.footer .media-body{
+.footer .media-body {
     background-color: #27374D;
     color: #fff;
 }
 
 .footer .media-body .media-heading,
-.footer .media-body a{
+.footer .media-body a {
     margin-left: 10px;
     margin-top: 5px;
 }
@@ -198,7 +205,8 @@ body {
 
 /* Email liên hệ*/
 
-.container .jumbotron .row .col-sm-10 .row select, textarea{
+.container .jumbotron .row .col-sm-10 .row select,
+textarea {
     width: 100%;
 }
 
@@ -220,7 +228,8 @@ body {
     margin: 20px;
 }
 
-.coche .jumbotron table th, td {
+.coche .jumbotron table th,
+td {
     padding: 10px;
 }
 
@@ -237,7 +246,7 @@ body {
     padding: 10px;
 }
 
-.coche .jumbotron .text-center{
+.coche .jumbotron .text-center {
     color: #000;
 }
 
@@ -252,7 +261,8 @@ body {
 }
 
 .btn-group a,
-a, p {
+a,
+p {
     font-size: 18px;
 }
 
@@ -262,7 +272,7 @@ a, p {
 
 .media-heading {
     font-size: 24px;
-    
+
 }
 
 .slide .carousel-inner .item .row .col-sm-4 .thumbnail {
@@ -281,11 +291,12 @@ a, p {
     height: 170px;
 }
 
-.content .table-bordered tbody{
+.content .table-bordered tbody {
     color: #fff;
 }
 
-.content p b, ul li,
+.content p b,
+ul li,
 .content .table-hover tbody {
     color: #fff;
 }
@@ -293,4 +304,3 @@ a, p {
 .content .table-hover tbody .success {
     color: #000;
 }
-
