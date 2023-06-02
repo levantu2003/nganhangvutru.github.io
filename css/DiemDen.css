@@ -4,10 +4,12 @@ html:hover {
 }
 
 /* ========================================== ITEM ========================================== */
-.item {
+.item 
+{
     position: relative;
     width: 100%;
     height: 100%;
+    background-color: #FFFFFF;
 }
 
 .item_picture {
@@ -69,7 +71,7 @@ html:hover {
     align-items: center;
 
     font-family: "Prata";
-    /*font-size: 30px;*/
+    font-size: 30px;
     border: 5px solid #DDDDDD;
     color: #FFFFFF;
     background-color: #0A4D68;

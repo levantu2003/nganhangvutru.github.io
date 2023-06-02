@@ -181,7 +181,7 @@ button:hover {
     align-items: center;
 
     font-family: "Great Vibes";
-    font-size: 28px;
+    font-size: 50px;
     font-weight: bold;
     color: #0A4D68;
 }
@@ -202,11 +202,11 @@ button:hover {
 .article_box {
     position: absolute;
     background-color: #0A4D68;
-    width: 120px;
-    height: 50px;
-    left: 75%;
-    top: 70%;
-    transform: translate(-75%, -70%);
+    width: 20%;
+    height: 20%;
+    right: 17.5%;
+    bottom: 20%;
+    font-size: 30px;
     border: 5px solid #DDDDDD;
     color: #fff;
 }
@@ -251,16 +251,17 @@ button:hover {
     overflow: visible;
 }
 
-.essay_box {
+.essay_box 
+{
     position: absolute;
     background-color: #0A4D68;
-    width: 100px;
-    height: 50px;
-    left: 25%;
-    top: 100%;
-    transform: translate(-25%, -100%);
+    width: 20%;
+    height: 20%;
+    left: 17.5%;
+    bottom: 20%;
     border: 5px solid #DDDDDD;
     color: #fff;
+    font-size: 30px;
 
 }
 
