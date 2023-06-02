@@ -1,4 +1,4 @@
-var UuTien =[
+var UuTien = [
     {
         "name": "Tin tức và sự kiện",
         "avatar": "https://portal.vietcombank.com.vn/content/Platinum/KhoAnh/anh%20dai%20dien/5.%20Tin%20t%E1%BB%A9c%20v%C3%A0%20s%E1%BB%B1%20ki%E1%BB%87n.jpg?RenditionID=3",
