@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="/css/long.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/DichVu.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="../js/service.js"></script>
-    <script src="../js/destination.js"></script>
+    <script src="/js/form.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- jQuery library -->
@@ -157,7 +158,7 @@
                     </div>
                     <div id="card_submit">
                         <div class="card_catagory">Tạo Thẻ</div>
-                        <div class="card_input"><input type="button" onclick="create_card()" value="Tạo Thẻ"></div>
+                        <div class="card_input"><input type="button" onclick="send_card()" value="Tạo Thẻ"></div>
                     </div>
                 </div>
                 <div id="card_box">Lấy<br>Thẻ<br>Tại<br>Ngân<br>Hàng</div>
@@ -225,22 +226,18 @@
         <div class="find" id="find_three"></div>
         <div class="tab_content">
             <div id="acc" class="tab">
-                <div id="acc_background"><img src="/images/DichVu/account.png" alt="account"></div>
-                <form name="acc_form" id="acc_form" onsubmit="return submit_form()" onreset="reset_form()">
+                <div id="acc_background"><img src="/img/service/account.png" alt="account"></div>
+                <form name="acc_form" id="acc_form" onsubmit="return send_form()" onreset="reset_form()">
                     <div id="acc_title">Đăng Ký Tài Khoản Số</div>
                     <div id="acc_basic_subtitle">Thông Tin Cá Nhân</div>
                     <div id="acc_basic">
                         <div id="acc_name">
                             <div class="acc_catagory">Tên</div>
-                            <div class="acc_input"><input type="text" name="acc_name" id="acc_one"
-                                    oninvalid="this.setCustomValidity('Nhập chữ cái với số lượng từ 1 đến 15')"
-                                    pattern="[\p{L}\p{M}\s]{1,15}" required></div>
+                            <div class="acc_input"><input type="text" name="acc_name" id="acc_one" required></div>
                         </div>
                         <div id="acc_surname">
                             <div class="acc_catagory">Họ</div>
-                            <div class="acc_input"><input type="text" name="acc_surname" id="acc_two"
-                                    oninvalid="this.setCustomValidity('Nhập chữ cái với số lượng từ 1 đến 15')"
-                                    pattern="[\p{L}\p{M}\s]{1,15}" required></div>
+                            <div class="acc_input"><input type="text" name="acc_surname" id="acc_two" required></div>
                         </div>
                         <div id="acc_gender">
                             <div class="acc_catagory">Giới Tính</div>
@@ -254,20 +251,15 @@
                         </div>
                         <div id="acc_ethnic">
                             <div class="acc_catagory">Dân Tộc</div>
-                            <div class="acc_input"><input type="text" name="acc_ethnic" id="acc_four"
-                                    oninvalid="this.setCustomValidity('Nhập chữ cái với số lượng từ 1 đến 15')"
-                                    pattern="[\p{L}\p{M}\s]{1,15}" required></div>
+                            <div class="acc_input"><input type="text" name="acc_ethnic" id="acc_four" required></div>
                         </div>
                         <div id="acc_dob">
                             <div class="acc_catagory">Ngày Sinh</div>
-                            <div class="acc_input"><input type="date" name="acc_dob" id="acc_five"
-                                    style="text-transform: none;" required></div>
+                            <div class="acc_input"><input type="date" name="acc_dob" id="acc_five" style="text-transform: none;" required></div>
                         </div>
                         <div id="acc_pob">
                             <div class="acc_catagory">Nơi Sinh</div>
-                            <div class="acc_input"><input type="text" name="acc_pob" id="acc_six"
-                                    oninvalid="this.setCustomValidity('Nhập chữ cái hay chữ số với số lượng từ 1 đến 15')"
-                                    pattern="[\p{L}\p{M}\p{N}\s]{1,15}" required></div>
+                            <div class="acc_input"><input type="text" name="acc_pob" id="acc_six" required></div>
                         </div>
                         <div id="acc_phone">
                             <div class="acc_catagory">Số Điện Thoại</div>
@@ -275,14 +267,11 @@
                         </div>
                         <div id="acc_email">
                             <div class="acc_catagory">Email</div>
-                            <div class="acc_input"><input type="email" name="acc_email" id="acc_eight"
-                                    oninvalid="this.setCustomValidity('Nhập đúng định dạng của email')"
-                                    style="text-transform: none;" required></div>
+                            <div class="acc_input"><input type="email" name="acc_email" id="acc_eight" style="text-transform: none;" required></div>
                         </div>
                         <div id="acc_image">
                             <div class="acc_catagory">Hình Ảnh</div>
-                            <div class="acc_input"><input type="file" name="acc_image" id="acc_nine" accept="image/*"
-                                    required></div>
+                            <div class="acc_input"><input type="file" name="acc_image" id="acc_nine" accept="image/*" required></div>
                         </div>
                     </div>
                     <div id="acc_legal_subtitle">Xác Minh Danh Tính</div>
@@ -327,43 +316,30 @@
                         </div>
                         <div id="acc_dor">
                             <div class="acc_catagory">Ngày Cấp</div>
-                            <div class="acc_input"><input type="date" name="acc_dor" id="acc_twelve"
-                                    style="text-transform: none;" required></div>
+                            <div class="acc_input"><input type="date" name="acc_dor" id="acc_twelve" style="text-transform: none;" required></div>
                         </div>
                         <div id="acc_por">
                             <div class="acc_catagory">Nơi Cấp</div>
-                            <div class="acc_input"><input type="text" name="acc_por" id="acc_thridteen"
-                                    oninvalid="this.setCustomValidity('Nhập chữ cái hay chữ số với số lượng từ 1 đến 15')"
-                                    pattern="[\p{L}\p{M}\p{N}\s]{1,15}" required></div>
+                            <div class="acc_input"><input type="text" name="acc_por" id="acc_thridteen" required></div>
                         </div>
                     </div>
                     <div id="acc_bank_subtitle">Tài Khoản Ngân Hàng</div>
                     <div id="acc_bank">
                         <div id="acc_id">
                             <div class="acc_catagory">Tên Tài Khoản</div>
-                            <div class="acc_input"><input type="text" name="acc_id" id="acc_fourteen"
-                                    oninvalid="this.setCustomValidity('Nhập với số lượng từ 1 đến 15')"
-                                    pattern="[\p{L}\p{M}\p{N}\p{Pc}\s]{1,15}" style="text-transform: none;" required>
-                            </div>
+                            <div class="acc_input"><input type="text" name="acc_id" id="acc_fourteen" style="text-transform: none;" required></div>
                         </div>
                         <div id="acc_pass">
                             <div class="acc_catagory">Mật Khẩu</div>
-                            <div class="acc_input"><input type="password" name="acc_pass" id="acc_fifteen"
-                                    oninvalid="this.setCustomValidity('Nhập với số lượng từ 1 đến 15')"
-                                    pattern="[\p{L}\p{M}\p{N}\p{Pc}\s]{1,15}" style="text-transform: none;" required>
-                            </div>
+                            <div class="acc_input"><input type="password" name="acc_pass" id="acc_fifteen" style="text-transform: none;" required></div>
                         </div>
                         <div id="acc_holder">
                             <div class="acc_catagory">Tên Người Dùng</div>
-                            <div class="acc_input"><input type="text" name="acc_holder" id="acc_sixteen"
-                                    oninvalid="this.setCustomValidity('Nhập chữ cái với số lượng từ 1 đến 15')"
-                                    pattern="[\p{L}\p{M}\s]{1,15}" required></div>
+                            <div class="acc_input"><input type="text" name="acc_holder" id="acc_sixteen" required></div>
                         </div>
                         <div id="acc_accept">
-                            <div id="acc_accept_one"><input type="checkbox" name="acc_accept" id="acc_seventeen"
-                                    required>Đồng ý với&nbsp;<a href="">điều khoản</a></div>
-                            <div id="acc_accept_two"><input type="checkbox" name="acc_accept" id="acc_eighteen">Nhận
-                                thông tin qua email</div>
+                            <div id="acc_accept_one"><input type="checkbox" name="acc_accept" id="acc_seventeen" required>Đồng ý với&nbsp;<a href="">điều khoản</a></div>
+                            <div id="acc_accept_two"><input type="checkbox" name="acc_accept" id="acc_eighteen">Nhận thông tin qua email</div>
                         </div>
                     </div>
                     <div id="acc_action">
